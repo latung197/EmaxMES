@@ -7,14 +7,14 @@
     <framework targetVersion="4.5.2" profile="Full" supportedRuntime="4.0.30319" />
   </compatibleFrameworks>
   <dependency>
-    <dependentAssembly dependencyType="install" codebase="MES.exe.manifest" size="49966">
+    <dependentAssembly dependencyType="install" codebase="MES.exe.manifest" size="130906">
       <assemblyIdentity name="MES.exe" version="1.0.0.0" publicKeyToken="0000000000000000" language="neutral" processorArchitecture="x86" type="win32" />
       <hash>
         <dsig:Transforms>
           <dsig:Transform Algorithm="urn:schemas-microsoft-com:HashTransforms.Identity" />
         </dsig:Transforms>
         <dsig:DigestMethod Algorithm="http://www.w3.org/2000/09/xmldsig#sha256" />
-        <dsig:DigestValue>0RmVRL6EtvFo66vKSz8pM9JfBThKdFnpvYifJ5s7BTs=</dsig:DigestValue>
+        <dsig:DigestValue>0L49xHrG3M1Q591fS1c5nE52ptIfvSjuN0n5VfDuDRw=</dsig:DigestValue>
       </hash>
     </dependentAssembly>
   </dependency>

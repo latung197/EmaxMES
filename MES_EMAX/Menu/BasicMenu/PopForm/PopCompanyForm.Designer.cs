@@ -48,6 +48,8 @@
             this.labelControl5 = new DevExpress.XtraEditors.LabelControl();
             this.labelControl1 = new DevExpress.XtraEditors.LabelControl();
             this.panelControl3 = new DevExpress.XtraEditors.PanelControl();
+            this.labelControl14 = new DevExpress.XtraEditors.LabelControl();
+            this.textEdit1 = new DevExpress.XtraEditors.TextEdit();
             this.txt_BillAddr1 = new DevExpress.XtraEditors.TextEdit();
             this.panelControl4 = new DevExpress.XtraEditors.PanelControl();
             this.pictureEdit_Sign = new DevExpress.XtraEditors.PictureEdit();
@@ -92,6 +94,7 @@
             ((System.ComponentModel.ISupportInitialize)(this.txt_RegDate.Properties)).BeginInit();
             ((System.ComponentModel.ISupportInitialize)(this.panelControl3)).BeginInit();
             this.panelControl3.SuspendLayout();
+            ((System.ComponentModel.ISupportInitialize)(this.textEdit1.Properties)).BeginInit();
             ((System.ComponentModel.ISupportInitialize)(this.txt_BillAddr1.Properties)).BeginInit();
             ((System.ComponentModel.ISupportInitialize)(this.panelControl4)).BeginInit();
             this.panelControl4.SuspendLayout();
@@ -118,9 +121,9 @@
             this.panelControl1.Controls.Add(this.panelControl2);
             this.panelControl1.Dock = System.Windows.Forms.DockStyle.Top;
             this.panelControl1.Location = new System.Drawing.Point(0, 0);
-            this.panelControl1.Margin = new System.Windows.Forms.Padding(2, 2, 2, 2);
+            this.panelControl1.Margin = new System.Windows.Forms.Padding(2);
             this.panelControl1.Name = "panelControl1";
-            this.panelControl1.Size = new System.Drawing.Size(551, 44);
+            this.panelControl1.Size = new System.Drawing.Size(649, 44);
             this.panelControl1.TabIndex = 51;
             // 
             // label_Name
@@ -141,7 +144,7 @@
             this.panelControl2.Controls.Add(this.btn_Save);
             this.panelControl2.Controls.Add(this.btn_Close);
             this.panelControl2.Controls.Add(this.btn_Insert);
-            this.panelControl2.Location = new System.Drawing.Point(308, 3);
+            this.panelControl2.Location = new System.Drawing.Point(328, 3);
             this.panelControl2.Margin = new System.Windows.Forms.Padding(2, 3, 2, 3);
             this.panelControl2.Name = "panelControl2";
             this.panelControl2.Size = new System.Drawing.Size(240, 37);
@@ -156,15 +159,15 @@
             this.btn_Delete.button_GB = MES.SimpleButtonEx.Button_GB.Delete;
             this.btn_Delete.ImageOptions.SvgImage = ((DevExpress.Utils.Svg.SvgImage)(resources.GetObject("btn_Delete.ImageOptions.SvgImage")));
             this.btn_Delete.Location = new System.Drawing.Point(62, 3);
-            this.btn_Delete.Margin = new System.Windows.Forms.Padding(2, 2, 2, 2);
+            this.btn_Delete.Margin = new System.Windows.Forms.Padding(2);
             this.btn_Delete.Name = "btn_Delete";
             this.btn_Delete.Result_Update = System.Windows.Forms.DialogResult.None;
             this.btn_Delete.sCHK = "N";
-            this.btn_Delete.Size = new System.Drawing.Size(56, 29);
+            this.btn_Delete.Size = new System.Drawing.Size(74, 34);
             this.btn_Delete.sSearch = "Y";
             this.btn_Delete.sUpdate = "N";
             this.btn_Delete.TabIndex = 22;
-            this.btn_Delete.Text = "삭제";
+            this.btn_Delete.Text = "Xóa";
             this.btn_Delete.Click += new System.EventHandler(this.btn_Delete_Click);
             // 
             // btn_Save
@@ -176,15 +179,15 @@
             this.btn_Save.button_GB = MES.SimpleButtonEx.Button_GB.Save;
             this.btn_Save.ImageOptions.SvgImage = ((DevExpress.Utils.Svg.SvgImage)(resources.GetObject("btn_Save.ImageOptions.SvgImage")));
             this.btn_Save.Location = new System.Drawing.Point(121, 3);
-            this.btn_Save.Margin = new System.Windows.Forms.Padding(2, 2, 2, 2);
+            this.btn_Save.Margin = new System.Windows.Forms.Padding(2);
             this.btn_Save.Name = "btn_Save";
             this.btn_Save.Result_Update = System.Windows.Forms.DialogResult.None;
             this.btn_Save.sCHK = "N";
-            this.btn_Save.Size = new System.Drawing.Size(56, 29);
+            this.btn_Save.Size = new System.Drawing.Size(74, 34);
             this.btn_Save.sSearch = "Y";
             this.btn_Save.sUpdate = "N";
             this.btn_Save.TabIndex = 23;
-            this.btn_Save.Text = "저장";
+            this.btn_Save.Text = "Lưu";
             this.btn_Save.Click += new System.EventHandler(this.btn_Save_Click);
             // 
             // btn_Close
@@ -197,15 +200,15 @@
             this.btn_Close.ImageOptions.Image = ((System.Drawing.Image)(resources.GetObject("btn_Close.ImageOptions.Image")));
             this.btn_Close.ImageOptions.SvgImage = ((DevExpress.Utils.Svg.SvgImage)(resources.GetObject("btn_Close.ImageOptions.SvgImage")));
             this.btn_Close.Location = new System.Drawing.Point(180, 3);
-            this.btn_Close.Margin = new System.Windows.Forms.Padding(2, 2, 2, 2);
+            this.btn_Close.Margin = new System.Windows.Forms.Padding(2);
             this.btn_Close.Name = "btn_Close";
             this.btn_Close.Result_Update = System.Windows.Forms.DialogResult.None;
             this.btn_Close.sCHK = "N";
-            this.btn_Close.Size = new System.Drawing.Size(56, 29);
+            this.btn_Close.Size = new System.Drawing.Size(74, 34);
             this.btn_Close.sSearch = "Y";
             this.btn_Close.sUpdate = "N";
             this.btn_Close.TabIndex = 24;
-            this.btn_Close.Text = "닫기";
+            this.btn_Close.Text = "Thoát";
             this.btn_Close.Click += new System.EventHandler(this.btn_Close_Click);
             // 
             // btn_Insert
@@ -217,16 +220,16 @@
             this.btn_Insert.button_GB = MES.SimpleButtonEx.Button_GB.Add;
             this.btn_Insert.ImageOptions.SvgImage = ((DevExpress.Utils.Svg.SvgImage)(resources.GetObject("btn_Insert.ImageOptions.SvgImage")));
             this.btn_Insert.Location = new System.Drawing.Point(4, 3);
-            this.btn_Insert.Margin = new System.Windows.Forms.Padding(2, 2, 2, 2);
+            this.btn_Insert.Margin = new System.Windows.Forms.Padding(2);
             this.btn_Insert.Name = "btn_Insert";
             this.btn_Insert.Result_Update = System.Windows.Forms.DialogResult.None;
             this.btn_Insert.sCHK = "N";
-            this.btn_Insert.Size = new System.Drawing.Size(56, 29);
+            this.btn_Insert.Size = new System.Drawing.Size(74, 34);
             this.btn_Insert.sSearch = "Y";
             this.btn_Insert.sUpdate = "N";
             this.btn_Insert.TabIndex = 21;
             this.btn_Insert.TabStop = false;
-            this.btn_Insert.Text = "추가";
+            this.btn_Insert.Text = "Thêm mới";
             this.btn_Insert.Click += new System.EventHandler(this.btn_Insert_Click);
             // 
             // panel_H
@@ -245,14 +248,14 @@
             this.panel_H.Location = new System.Drawing.Point(0, 44);
             this.panel_H.Margin = new System.Windows.Forms.Padding(2, 3, 2, 3);
             this.panel_H.Name = "panel_H";
-            this.panel_H.Size = new System.Drawing.Size(551, 53);
+            this.panel_H.Size = new System.Drawing.Size(649, 53);
             this.panel_H.TabIndex = 52;
             // 
             // txt_UpUser
             // 
             this.txt_UpUser.Anchor = ((System.Windows.Forms.AnchorStyles)((System.Windows.Forms.AnchorStyles.Top | System.Windows.Forms.AnchorStyles.Right)));
             this.txt_UpUser.Enabled = false;
-            this.txt_UpUser.Location = new System.Drawing.Point(495, 28);
+            this.txt_UpUser.Location = new System.Drawing.Point(515, 28);
             this.txt_UpUser.Margin = new System.Windows.Forms.Padding(2, 3, 2, 3);
             this.txt_UpUser.Name = "txt_UpUser";
             this.txt_UpUser.Properties.Appearance.BackColor = System.Drawing.Color.LightGray;
@@ -266,7 +269,7 @@
             // 
             this.txt_RegUser.Anchor = ((System.Windows.Forms.AnchorStyles)((System.Windows.Forms.AnchorStyles.Top | System.Windows.Forms.AnchorStyles.Right)));
             this.txt_RegUser.Enabled = false;
-            this.txt_RegUser.Location = new System.Drawing.Point(495, 4);
+            this.txt_RegUser.Location = new System.Drawing.Point(515, 4);
             this.txt_RegUser.Margin = new System.Windows.Forms.Padding(2, 3, 2, 3);
             this.txt_RegUser.Name = "txt_RegUser";
             this.txt_RegUser.Properties.Appearance.BackColor = System.Drawing.Color.LightGray;
@@ -280,7 +283,7 @@
             // 
             this.txt_UpDate.Anchor = ((System.Windows.Forms.AnchorStyles)((System.Windows.Forms.AnchorStyles.Top | System.Windows.Forms.AnchorStyles.Right)));
             this.txt_UpDate.Enabled = false;
-            this.txt_UpDate.Location = new System.Drawing.Point(344, 28);
+            this.txt_UpDate.Location = new System.Drawing.Point(364, 28);
             this.txt_UpDate.Margin = new System.Windows.Forms.Padding(2, 3, 2, 3);
             this.txt_UpDate.Name = "txt_UpDate";
             this.txt_UpDate.Properties.Appearance.BackColor = System.Drawing.Color.LightGray;
@@ -306,7 +309,7 @@
             // 
             this.txt_RegDate.Anchor = ((System.Windows.Forms.AnchorStyles)((System.Windows.Forms.AnchorStyles.Top | System.Windows.Forms.AnchorStyles.Right)));
             this.txt_RegDate.Enabled = false;
-            this.txt_RegDate.Location = new System.Drawing.Point(344, 4);
+            this.txt_RegDate.Location = new System.Drawing.Point(364, 4);
             this.txt_RegDate.Margin = new System.Windows.Forms.Padding(2, 3, 2, 3);
             this.txt_RegDate.Name = "txt_RegDate";
             this.txt_RegDate.Properties.Appearance.BackColor = System.Drawing.Color.LightGray;
@@ -321,7 +324,7 @@
             this.labelControl2.Anchor = ((System.Windows.Forms.AnchorStyles)((System.Windows.Forms.AnchorStyles.Top | System.Windows.Forms.AnchorStyles.Right)));
             this.labelControl2.Appearance.Font = new System.Drawing.Font("NanumBarunGothic", 11F);
             this.labelControl2.Appearance.Options.UseFont = true;
-            this.labelControl2.Location = new System.Drawing.Point(288, 29);
+            this.labelControl2.Location = new System.Drawing.Point(308, 29);
             this.labelControl2.Margin = new System.Windows.Forms.Padding(2, 3, 2, 3);
             this.labelControl2.Name = "labelControl2";
             this.labelControl2.Size = new System.Drawing.Size(52, 17);
@@ -333,7 +336,7 @@
             this.labelControl4.Anchor = ((System.Windows.Forms.AnchorStyles)((System.Windows.Forms.AnchorStyles.Top | System.Windows.Forms.AnchorStyles.Right)));
             this.labelControl4.Appearance.Font = new System.Drawing.Font("NanumBarunGothic", 11F);
             this.labelControl4.Appearance.Options.UseFont = true;
-            this.labelControl4.Location = new System.Drawing.Point(456, 29);
+            this.labelControl4.Location = new System.Drawing.Point(476, 29);
             this.labelControl4.Margin = new System.Windows.Forms.Padding(2, 3, 2, 3);
             this.labelControl4.Name = "labelControl4";
             this.labelControl4.Size = new System.Drawing.Size(39, 17);
@@ -345,7 +348,7 @@
             this.labelControl3.Anchor = ((System.Windows.Forms.AnchorStyles)((System.Windows.Forms.AnchorStyles.Top | System.Windows.Forms.AnchorStyles.Right)));
             this.labelControl3.Appearance.Font = new System.Drawing.Font("NanumBarunGothic", 11F);
             this.labelControl3.Appearance.Options.UseFont = true;
-            this.labelControl3.Location = new System.Drawing.Point(456, 7);
+            this.labelControl3.Location = new System.Drawing.Point(476, 7);
             this.labelControl3.Margin = new System.Windows.Forms.Padding(2, 3, 2, 3);
             this.labelControl3.Name = "labelControl3";
             this.labelControl3.Size = new System.Drawing.Size(39, 17);
@@ -370,7 +373,7 @@
             this.labelControl1.Anchor = ((System.Windows.Forms.AnchorStyles)((System.Windows.Forms.AnchorStyles.Top | System.Windows.Forms.AnchorStyles.Right)));
             this.labelControl1.Appearance.Font = new System.Drawing.Font("NanumBarunGothic", 11F);
             this.labelControl1.Appearance.Options.UseFont = true;
-            this.labelControl1.Location = new System.Drawing.Point(288, 7);
+            this.labelControl1.Location = new System.Drawing.Point(308, 7);
             this.labelControl1.Margin = new System.Windows.Forms.Padding(2, 3, 2, 3);
             this.labelControl1.Name = "labelControl1";
             this.labelControl1.Size = new System.Drawing.Size(52, 17);
@@ -379,6 +382,8 @@
             // 
             // panelControl3
             // 
+            this.panelControl3.Controls.Add(this.labelControl14);
+            this.panelControl3.Controls.Add(this.textEdit1);
             this.panelControl3.Controls.Add(this.txt_BillAddr1);
             this.panelControl3.Controls.Add(this.panelControl4);
             this.panelControl3.Controls.Add(this.chk_Main);
@@ -410,8 +415,33 @@
             this.panelControl3.Location = new System.Drawing.Point(0, 97);
             this.panelControl3.Margin = new System.Windows.Forms.Padding(2, 3, 2, 3);
             this.panelControl3.Name = "panelControl3";
-            this.panelControl3.Size = new System.Drawing.Size(551, 553);
+            this.panelControl3.Size = new System.Drawing.Size(649, 637);
             this.panelControl3.TabIndex = 101;
+            // 
+            // labelControl14
+            // 
+            this.labelControl14.Appearance.Font = new System.Drawing.Font("Times New Roman", 11.25F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.labelControl14.Appearance.ForeColor = System.Drawing.Color.FromArgb(((int)(((byte)(80)))), ((int)(((byte)(80)))), ((int)(((byte)(80)))));
+            this.labelControl14.Appearance.Options.UseFont = true;
+            this.labelControl14.Appearance.Options.UseForeColor = true;
+            this.labelControl14.Appearance.Options.UseTextOptions = true;
+            this.labelControl14.Appearance.TextOptions.HAlignment = DevExpress.Utils.HorzAlignment.Center;
+            this.labelControl14.Location = new System.Drawing.Point(17, 233);
+            this.labelControl14.Margin = new System.Windows.Forms.Padding(2, 3, 2, 3);
+            this.labelControl14.Name = "labelControl14";
+            this.labelControl14.Size = new System.Drawing.Size(45, 17);
+            this.labelControl14.TabIndex = 33;
+            this.labelControl14.Text = "Ghi chú";
+            // 
+            // textEdit1
+            // 
+            this.textEdit1.Location = new System.Drawing.Point(85, 226);
+            this.textEdit1.Margin = new System.Windows.Forms.Padding(2, 3, 2, 3);
+            this.textEdit1.Name = "textEdit1";
+            this.textEdit1.Properties.Appearance.Font = new System.Drawing.Font("NanumBarunGothic", 11F);
+            this.textEdit1.Properties.Appearance.Options.UseFont = true;
+            this.textEdit1.Size = new System.Drawing.Size(450, 24);
+            this.textEdit1.TabIndex = 32;
             // 
             // txt_BillAddr1
             // 
@@ -429,7 +459,7 @@
             this.panelControl4.Controls.Add(this.labelControl8);
             this.panelControl4.Controls.Add(this.pictureEdit_Logo);
             this.panelControl4.Controls.Add(this.labelControl6);
-            this.panelControl4.Location = new System.Drawing.Point(17, 222);
+            this.panelControl4.Location = new System.Drawing.Point(17, 286);
             this.panelControl4.Margin = new System.Windows.Forms.Padding(2, 3, 2, 3);
             this.panelControl4.Name = "panelControl4";
             this.panelControl4.Size = new System.Drawing.Size(518, 325);
@@ -811,9 +841,10 @@
             // 
             // PopCompanyForm
             // 
+            this.Appearance.Options.UseFont = true;
             this.AutoScaleDimensions = new System.Drawing.SizeF(6F, 13F);
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
-            this.ClientSize = new System.Drawing.Size(551, 650);
+            this.ClientSize = new System.Drawing.Size(649, 734);
             this.Controls.Add(this.panelControl3);
             this.Controls.Add(this.panel_H);
             this.Controls.Add(this.panelControl1);
@@ -837,6 +868,7 @@
             ((System.ComponentModel.ISupportInitialize)(this.panelControl3)).EndInit();
             this.panelControl3.ResumeLayout(false);
             this.panelControl3.PerformLayout();
+            ((System.ComponentModel.ISupportInitialize)(this.textEdit1.Properties)).EndInit();
             ((System.ComponentModel.ISupportInitialize)(this.txt_BillAddr1.Properties)).EndInit();
             ((System.ComponentModel.ISupportInitialize)(this.panelControl4)).EndInit();
             this.panelControl4.ResumeLayout(false);
@@ -912,5 +944,7 @@
         private DevExpress.XtraEditors.LabelControl labelControl9;
         private DevExpress.XtraEditors.LabelControl labelControl7;
         private DevExpress.XtraEditors.TextEdit txt_BillAddr1;
+        private DevExpress.XtraEditors.LabelControl labelControl14;
+        private DevExpress.XtraEditors.TextEdit textEdit1;
     }
 }

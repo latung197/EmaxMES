@@ -413,12 +413,12 @@ namespace MES
 
         public static void Set_URL()
         {
-            string sFTPstring = Configurations.GetConfig("FTPstring");
-            string[] sFTP = sFTPstring.Split(';');
+            //string sFTPstring = Configurations.GetConfig("FTPstring");
+            //string[] sFTP = sFTPstring.Split(';');
 
-            FTP_URL = "ftp://" + sFTP[0] + "/";
-            ID = sFTP[1];
-            PW = sFTP[2];
+            //FTP_URL = "ftp://" + sFTP[0] + "/";
+            //ID = sFTP[1];
+            //PW = sFTP[2];
             //FTP_URL = "ftp://192.168.0.60:21/";
             //ID = "administrator";
             //PW = "Root1234";
