@@ -194,7 +194,7 @@
           <dsig:Transform Algorithm="urn:schemas-microsoft-com:HashTransforms.Identity" />
         </dsig:Transforms>
         <dsig:DigestMethod Algorithm="http://www.w3.org/2000/09/xmldsig#sha256" />
-        <dsig:DigestValue>w/gNktGkwHuDhDw1kORJsc+YDOuwgh37VKCIPTgScws=</dsig:DigestValue>
+        <dsig:DigestValue>QCL7Hjb1+oPIZbJnvNFMLQVMELhsFfigUpaWI1+koc4=</dsig:DigestValue>
       </hash>
     </dependentAssembly>
   </dependency>
@@ -2066,7 +2066,7 @@
           <dsig:Transform Algorithm="urn:schemas-microsoft-com:HashTransforms.Identity" />
         </dsig:Transforms>
         <dsig:DigestMethod Algorithm="http://www.w3.org/2000/09/xmldsig#sha256" />
-        <dsig:DigestValue>BcoeTqdjt5WYUL7ncyf6WnouBU5w+D+i0q9IHVCvqDA=</dsig:DigestValue>
+        <dsig:DigestValue>Wgvlqwv5OcqzyLkl1c4YS0DWc/7Pt1eWX5zovaxwmw0=</dsig:DigestValue>
       </hash>
     </dependentAssembly>
   </dependency>
@@ -2088,13 +2088,13 @@
       <dsig:DigestValue>VTZMHttvuelge4QUxYxbwF/jsXgHwPErboWDbgRLJYg=</dsig:DigestValue>
     </hash>
   </file>
-  <file name="MES.exe.config" size="7545">
+  <file name="MES.exe.config" size="7536">
     <hash>
       <dsig:Transforms>
         <dsig:Transform Algorithm="urn:schemas-microsoft-com:HashTransforms.Identity" />
       </dsig:Transforms>
       <dsig:DigestMethod Algorithm="http://www.w3.org/2000/09/xmldsig#sha256" />
-      <dsig:DigestValue>p9pF42EOdyYmHZlhvQfxHPNnT7AmFmgDGAwTDluSrZs=</dsig:DigestValue>
+      <dsig:DigestValue>Jq/C/1RvCU9eJTPEqxizhfn4S8qub53DMiMP5tvJwS4=</dsig:DigestValue>
     </hash>
   </file>
   <file name="MES.ico" size="62982">
@@ -2124,13 +2124,13 @@
       <dsig:DigestValue>x5wXGq7gtAUV4sTagyvTgk7WkqRk1C76GwsxynsUeFg=</dsig:DigestValue>
     </hash>
   </file>
-  <file name="Resources\business_calculator.svg" size="938">
+  <file name="Resources\business_calculator.svg" size="955">
     <hash>
       <dsig:Transforms>
         <dsig:Transform Algorithm="urn:schemas-microsoft-com:HashTransforms.Identity" />
       </dsig:Transforms>
       <dsig:DigestMethod Algorithm="http://www.w3.org/2000/09/xmldsig#sha256" />
-      <dsig:DigestValue>F5491Y/VTu7yZ4cGL1+ipcrK+DckWkrBHTxw584LYzQ=</dsig:DigestValue>
+      <dsig:DigestValue>zjRNNStgShnuJAB1kqonNT/NmuDQyBRYO6MaSkD1EW0=</dsig:DigestValue>
     </hash>
   </file>
   <file name="Resources\find_32x321.png" size="2632">

@@ -10,6 +10,7 @@ using System.Windows.Forms;
 using DevExpress.XtraEditors;
 using DevExpress.XtraGrid.Views.Grid;
 using DevExpress.XtraGrid.Controls;
+using DevExpress.Mvvm.POCO;
 
 namespace MES
 {
@@ -263,6 +264,7 @@ namespace MES
 
         private void gv_Help_DoubleClick(object sender, EventArgs e)
         {
+            Selected.Clear();
             if (gv_Help.RowCount < 1)
                 return;
             if (gv_Help.FocusedRowHandle < 0 || gv_Help.GetSelectedRows().Count() == 0) return;
@@ -308,6 +310,7 @@ namespace MES
             }
             else
             {
+                Selected.Clear();
                 int iSelectRow = gv_Help.GetSelectedRows()[0]; //무조건 하나 선택
 
                 DataRow row = temp.Rows[temp.Rows.IndexOf(gv_Help.GetFocusedDataRow())];
@@ -350,6 +353,7 @@ namespace MES
                 }
                 else
                 {
+                    Selected.Clear();
                     int iSelectRow = gv_Help.GetSelectedRows()[0]; //무조건 하나 선택
 
                     DataRow row = temp.Rows[temp.Rows.IndexOf(gv_Help.GetFocusedDataRow())];

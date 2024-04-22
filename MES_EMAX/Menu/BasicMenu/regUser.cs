@@ -23,16 +23,16 @@ namespace MES
 
         private void regUser_Load(object sender, EventArgs e)
         {
-            DbHelp.GridSet(gc_User, gv_User, "User_Code", "사원코드", "", false, false, true);
-            DbHelp.GridSet(gc_User, gv_User, "User_Name", "사원명", "", false, false, true);
-            DbHelp.GridSet(gc_User, gv_User, "Dept_Name", "부서명", "", false, false, true);
-            DbHelp.GridSet(gc_User, gv_User, "User_PosNM", "직책", "", false, false, true);
-            DbHelp.GridSet(gc_User, gv_User, "In_Date", "입사일자", "", false, false, true);
-            DbHelp.GridSet(gc_User, gv_User, "Tel_No", "전화번호", "", false, false, true);
-            DbHelp.GridSet(gc_User, gv_User, "Fax_No", "팩스번호", "", false, false, true);
-            DbHelp.GridSet(gc_User, gv_User, "Mobile_No", "핸드폰번호", "", false, false, true);
-            DbHelp.GridSet(gc_User, gv_User, "E_Mail", "이메일", "", false, false, true);
-            DbHelp.GridSet(gc_User, gv_User, "Use_Ck", "사용유무", "", false, false, true);
+            DbHelp.GridSet(gc_User, gv_User, "User_Code", "사원코드", "120", false, false, true);
+            DbHelp.GridSet(gc_User, gv_User, "User_Name", "사원명", "120", false, false, true);
+            DbHelp.GridSet(gc_User, gv_User, "Dept_Name", "부서명", "120", false, false, true);
+            DbHelp.GridSet(gc_User, gv_User, "User_PosNM", "직책", "120", false, false, true);
+            DbHelp.GridSet(gc_User, gv_User, "In_Date", "입사일자", "120", false, false, true);
+            DbHelp.GridSet(gc_User, gv_User, "Tel_No", "전화번호", "120", false, false, true);
+            DbHelp.GridSet(gc_User, gv_User, "Fax_No", "팩스번호", "120", false, false, true);
+            DbHelp.GridSet(gc_User, gv_User, "Mobile_No", "핸드폰번호", "120", false, false, true);
+            DbHelp.GridSet(gc_User, gv_User, "E_Mail", "이메일", "120", false, false, true);
+            DbHelp.GridSet(gc_User, gv_User, "Use_Ck", "사용유무", "120", false, false, true);
 
             DbHelp.GridColumn_CheckBox(gv_User, "Use_Ck");
 

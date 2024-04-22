@@ -62,7 +62,7 @@ namespace MES
 
         private void Grid_Set()
         {
-            DbHelp.GridSet(Grid_In, View_In, "Cus_Pt", "", "", false, true, false);
+            DbHelp.GridSet(Grid_In, View_In, "Cus_Pt", "Cus_pt", "120", false, true, false);
             DbHelp.GridSet(Grid_In, View_In, "Custom_Name", "매입처", "150", false, true, true);
             DbHelp.GridSet(Grid_In, View_In, "Custom_Code", "거래처코드", "100", false, true, false);
             DbHelp.GridSet(Grid_In, View_In, "CItem_Code", "거래처품번", "150", false, true, true);
@@ -70,7 +70,7 @@ namespace MES
             DbHelp.GridSet(Grid_In, View_In, "Def_Ck", "주거래처", "80", false, true, true);
             DbHelp.GridSet(Grid_In, View_In, "Moq_Qty", "최소구매량", "100", false, true, true);
 
-            DbHelp.GridSet(Grid_Out, View_Out, "Cus_Pt", "", "", false, true, false);
+            DbHelp.GridSet(Grid_Out, View_Out, "Cus_Pt", "Cus_pt", "120", false, true, false);
             DbHelp.GridSet(Grid_Out, View_Out, "Custom_Name", "매출처", "150", false, true, true);
             DbHelp.GridSet(Grid_Out, View_Out, "Custom_Code", "거래처코드", "100", false, true, false);
             DbHelp.GridSet(Grid_Out, View_Out, "CItem_Code", "거래처품번", "150", false, true, true);
