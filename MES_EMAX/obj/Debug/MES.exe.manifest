@@ -2059,14 +2059,14 @@
     </dependentAssembly>
   </dependency>
   <dependency>
-    <dependentAssembly dependencyType="install" allowDelayedBinding="true" codebase="MES.exe" size="1406464">
+    <dependentAssembly dependencyType="install" allowDelayedBinding="true" codebase="MES.exe" size="1442816">
       <assemblyIdentity name="MES" version="1.0.0.0" language="neutral" processorArchitecture="x86" />
       <hash>
         <dsig:Transforms>
           <dsig:Transform Algorithm="urn:schemas-microsoft-com:HashTransforms.Identity" />
         </dsig:Transforms>
         <dsig:DigestMethod Algorithm="http://www.w3.org/2000/09/xmldsig#sha256" />
-        <dsig:DigestValue>Wgvlqwv5OcqzyLkl1c4YS0DWc/7Pt1eWX5zovaxwmw0=</dsig:DigestValue>
+        <dsig:DigestValue>ZH4D/fSiDCNNo9hsti7mb3PjSazo+HXH69FsrtDeReA=</dsig:DigestValue>
       </hash>
     </dependentAssembly>
   </dependency>
@@ -2088,13 +2088,13 @@
       <dsig:DigestValue>VTZMHttvuelge4QUxYxbwF/jsXgHwPErboWDbgRLJYg=</dsig:DigestValue>
     </hash>
   </file>
-  <file name="MES.exe.config" size="7536">
+  <file name="MES.exe.config" size="7540">
     <hash>
       <dsig:Transforms>
         <dsig:Transform Algorithm="urn:schemas-microsoft-com:HashTransforms.Identity" />
       </dsig:Transforms>
       <dsig:DigestMethod Algorithm="http://www.w3.org/2000/09/xmldsig#sha256" />
-      <dsig:DigestValue>Jq/C/1RvCU9eJTPEqxizhfn4S8qub53DMiMP5tvJwS4=</dsig:DigestValue>
+      <dsig:DigestValue>x0i8BSTcf7Vpp+CkiHIDx4k1LZL6RzXTIs5uvcUHQTo=</dsig:DigestValue>
     </hash>
   </file>
   <file name="MES.ico" size="62982">

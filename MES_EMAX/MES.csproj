@@ -392,6 +392,12 @@
     <Compile Include="Menu\ProduceMenu\regWork.Designer.cs">
       <DependentUpon>regWork.cs</DependentUpon>
     </Compile>
+    <Compile Include="Menu\ProduceMenu\regCheckin.cs">
+      <SubType>UserControl</SubType>
+    </Compile>
+    <Compile Include="Menu\ProduceMenu\regCheckin.Designer.cs">
+      <DependentUpon>regCheckin.cs</DependentUpon>
+    </Compile>
     <Compile Include="Menu\ProduceMenu\regWorkResult.cs">
       <SubType>UserControl</SubType>
     </Compile>
@@ -644,6 +650,9 @@
     <EmbeddedResource Include="Menu\ProduceMenu\regWork.resx">
       <DependentUpon>regWork.cs</DependentUpon>
     </EmbeddedResource>
+    <EmbeddedResource Include="Menu\ProduceMenu\regCheckin.resx">
+      <DependentUpon>regCheckin.cs</DependentUpon>
+    </EmbeddedResource>
     <EmbeddedResource Include="Menu\ProduceMenu\regWorkResult.resx">
       <DependentUpon>regWorkResult.cs</DependentUpon>
     </EmbeddedResource>
@@ -761,6 +770,7 @@
       <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
     </Content>
     <Content Include="MES.ico" />
+    <None Include="Resources\reset_16x162.png" />
     <None Include="Resources\up.svg" />
     <None Include="Resources\resetlayoutoptions.svg" />
     <None Include="Resources\redo.svg" />

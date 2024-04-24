@@ -56,7 +56,7 @@ namespace MES
         {
             //Quot_S 그리드
             gc_OrderS.AddRowYN = true;
-            DbHelp.GridSet(gc_OrderS, gv_OrderS, "Sort_No", "순번", "", false, false, false, true);
+            DbHelp.GridSet(gc_OrderS, gv_OrderS, "Sort_No", "순번", "100", false, false, false, true);
             DbHelp.GridSet(gc_OrderS, gv_OrderS, "Item_Code", "품목코드", "120", false, true, true, true);
             DbHelp.GridSet(gc_OrderS, gv_OrderS, "Item_Name", "품목명", "150", false, false, true, true);
             DbHelp.GridSet(gc_OrderS, gv_OrderS, "Qty", "Qty", "80", true, true, true, true);

@@ -20,6 +20,7 @@ using DevExpress.XtraEditors;
 using System.Runtime.InteropServices;
 using DevExpress.Drawing;
 using Microsoft.Win32;
+using DevExpress.XtraBars;
 
 namespace MES
 {
@@ -45,6 +46,7 @@ namespace MES
                 chkID.Checked = Settings.Default.chk_id;
 
                 string sDBConns = Configurations.GetConfig("DBConnstring");
+                Grid_DBindingCboLanguage();
 
                 if (string.IsNullOrWhiteSpace(sDBConns))
                 {
@@ -70,6 +72,15 @@ namespace MES
             {
                 XtraMessageBox.Show(ex.Message);
             }
+        }
+
+
+        private void Grid_DBindingCboLanguage()
+        {
+            List<string> list = new List<string>();
+            list.Add("Tiếng Việt");
+            list.Add("Tiếng Hàn");
+            cboLanguage.Properties.Items.AddRange(list);
         }
 
         private string Get_Version(string Kind , string Text_File, string Path)
@@ -138,7 +149,7 @@ namespace MES
                     SplashScreenManager.ShowForm(this.FindForm(), typeof(BaseWaitForm), true, true, false);
                     SplashScreenManager.Default.SetWaitFormCaption("");
                     SplashScreenManager.Default.SetWaitFormDescription("");
-
+                    Program._language = cboLanguage.SelectedIndex;
                     this.Hide();
 
                     Form form = new MainForm();

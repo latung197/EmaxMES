@@ -161,32 +161,63 @@ namespace MES
                         XtraMessageBox.Show("작업자에 설정된 메뉴가 없습니다");
                         return;
                     }
-
-                    for (int i = 0; i < dt.Rows.Count; i++)
+                    if (Program._language == 0)
                     {
-                        AccordionControlElement AccMainMenu = new AccordionControlElement();
-                        AccMainMenu = GetElement(dt.Rows[i]["Menu_MCode"].ToString(), ElementStyle.Group, dt.Rows[i]["Menu_MName"].ToString());
-                        this.acc_MenuList.Elements.Add(AccMainMenu);
-
-                        dr = dt_sub.Select("Menu_MCode = '" + dt.Rows[i]["Menu_MCode"].ToString() + "'");
-
-                        foreach (DataRow drsub1 in dr)
+                        for (int i = 0; i < dt.Rows.Count; i++)
                         {
-                            AccordionControlElement AccMenuSub2;
+                            AccordionControlElement AccMainMenu = new AccordionControlElement();
+                            AccMainMenu = GetElement(dt.Rows[i]["Menu_MCode"].ToString(), ElementStyle.Group, dt.Rows[i]["Menu_MName"].ToString());
+                            this.acc_MenuList.Elements.Add(AccMainMenu);
 
-                            if (drsub1["Form_Name"].ToString() == "")
+                            dr = dt_sub.Select("Menu_MCode = '" + dt.Rows[i]["Menu_MCode"].ToString() + "'");
+
+                            foreach (DataRow drsub1 in dr)
                             {
-                                AccMenuSub1 = GetElement(drsub1["Form_Name"].ToString(), ElementStyle.Group, drsub1["Menu_SName"].ToString());
-                                AccMainMenu.Elements.Add(AccMenuSub1);
-                            }
-                            else
-                            {
-                                AccMenuSub2 = new AccordionControlElement();
-                                AccMenuSub2 = GetElement(drsub1["Form_Name"].ToString(), ElementStyle.Item, drsub1["Menu_SName"].ToString());
-                                AccMenuSub1.Elements.Add(AccMenuSub2);
+                                AccordionControlElement AccMenuSub2;
+
+                                if (drsub1["Form_Name"].ToString() == "")
+                                {
+                                    AccMenuSub1 = GetElement(drsub1["Form_Name"].ToString(), ElementStyle.Group, drsub1["Menu_SName"].ToString());
+                                    AccMainMenu.Elements.Add(AccMenuSub1);
+                                }
+                                else
+                                {
+                                    AccMenuSub2 = new AccordionControlElement();
+                                    AccMenuSub2 = GetElement(drsub1["Form_Name"].ToString(), ElementStyle.Item, drsub1["Menu_SName"].ToString());
+                                    AccMenuSub1.Elements.Add(AccMenuSub2);
+                                }
                             }
                         }
                     }
+                    else
+                    {
+                        for (int i = 0; i < dt.Rows.Count; i++)
+                        {
+                            AccordionControlElement AccMainMenu = new AccordionControlElement();
+                            AccMainMenu = GetElement(dt.Rows[i]["Menu_MCode"].ToString(), ElementStyle.Group, dt.Rows[i]["Menu_MName2"].ToString());
+                            this.acc_MenuList.Elements.Add(AccMainMenu);
+
+                            dr = dt_sub.Select("Menu_MCode = '" + dt.Rows[i]["Menu_MCode"].ToString() + "'");
+
+                            foreach (DataRow drsub1 in dr)
+                            {
+                                AccordionControlElement AccMenuSub2;
+
+                                if (drsub1["Form_Name"].ToString() == "")
+                                {
+                                    AccMenuSub1 = GetElement(drsub1["Form_Name"].ToString(), ElementStyle.Group, drsub1["Menu_SName2"].ToString());
+                                    AccMainMenu.Elements.Add(AccMenuSub1);
+                                }
+                                else
+                                {
+                                    AccMenuSub2 = new AccordionControlElement();
+                                    AccMenuSub2 = GetElement(drsub1["Form_Name"].ToString(), ElementStyle.Item, drsub1["Menu_SName2"].ToString());
+                                    AccMenuSub1.Elements.Add(AccMenuSub2);
+                                }
+                            }
+                        }
+                    }
+
                 }
                 else
                 {

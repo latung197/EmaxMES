@@ -19,8 +19,9 @@ namespace MES
         /// </summary>
         /// 
 
-      //  static PrivateFontCollection privateFonts = new PrivateFontCollection();
+        //  static PrivateFontCollection privateFonts = new PrivateFontCollection();
 
+        public static int _language = 0;
         [STAThread]
         static void Main()
         {
