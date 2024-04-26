@@ -5,8 +5,8 @@
     <ProjectView>ProjectFiles</ProjectView>
     <PublishUrlHistory>publish\</PublishUrlHistory>
     <InstallUrlHistory />
-    <SupportUrlHistory />
-    <UpdateUrlHistory />
+    <SupportUrlHistory>http://10.100.0.232:5580/|http://10.100.0.232:5580</SupportUrlHistory>
+    <UpdateUrlHistory>http://10.100.0.232:5580/</UpdateUrlHistory>
     <BootstrapperUrlHistory />
     <ErrorReportUrlHistory />
     <FallbackCulture>en-US</FallbackCulture>

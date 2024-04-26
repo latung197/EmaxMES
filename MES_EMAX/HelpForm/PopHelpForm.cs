@@ -292,7 +292,11 @@ namespace MES
         }
 
         private void btn_Select_Click(object sender, EventArgs e)
-        {
+        {    
+            if(gv_Help.DataRowCount <= 0)
+            {
+                return;
+            }
             if (gc_Help.MultiSelectChk)
             {
                 //drReturn = new DataRow[gv_Help.SelectedRowsCount];

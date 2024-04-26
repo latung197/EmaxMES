@@ -123,6 +123,8 @@
             this.btn_Save.Appearance.Options.UseBackColor = true;
             this.btn_Save.Appearance.Options.UseBorderColor = true;
             this.btn_Save.ImageOptions.SvgImage = ((DevExpress.Utils.Svg.SvgImage)(resources.GetObject("btn_Save.ImageOptions.SvgImage")));
+            this.btn_Save.Size = new System.Drawing.Size(56, 29);
+            this.btn_Save.Text = "Lưu";
             this.btn_Save.Click += new System.EventHandler(this.btn_Save_Click);
             // 
             // btn_Close
@@ -133,6 +135,8 @@
             this.btn_Close.Appearance.Options.UseBorderColor = true;
             this.btn_Close.ImageOptions.Image = ((System.Drawing.Image)(resources.GetObject("btn_Close.ImageOptions.Image")));
             this.btn_Close.ImageOptions.SvgImage = ((DevExpress.Utils.Svg.SvgImage)(resources.GetObject("btn_Close.ImageOptions.SvgImage")));
+            this.btn_Close.Size = new System.Drawing.Size(56, 29);
+            this.btn_Close.Text = "Thoát";
             this.btn_Close.Click += new System.EventHandler(this.btn_Close_Click);
             // 
             // btn_Excel
@@ -143,6 +147,8 @@
             this.btn_Excel.Appearance.Options.UseBorderColor = true;
             this.btn_Excel.ImageOptions.Image = ((System.Drawing.Image)(resources.GetObject("btn_Excel.ImageOptions.Image")));
             this.btn_Excel.ImageOptions.SvgImage = ((DevExpress.Utils.Svg.SvgImage)(resources.GetObject("btn_Excel.ImageOptions.SvgImage")));
+            this.btn_Excel.Size = new System.Drawing.Size(56, 29);
+            this.btn_Excel.Text = "Excel";
             this.btn_Excel.Click += new System.EventHandler(this.btn_Excel_Click);
             // 
             // btn_Insert
@@ -152,6 +158,8 @@
             this.btn_Insert.Appearance.Options.UseBackColor = true;
             this.btn_Insert.Appearance.Options.UseBorderColor = true;
             this.btn_Insert.ImageOptions.SvgImage = ((DevExpress.Utils.Svg.SvgImage)(resources.GetObject("btn_Insert.ImageOptions.SvgImage")));
+            this.btn_Insert.Size = new System.Drawing.Size(56, 29);
+            this.btn_Insert.Text = "Thêm mới";
             this.btn_Insert.Click += new System.EventHandler(this.btn_Insert_Click);
             // 
             // btn_Delete
@@ -161,6 +169,8 @@
             this.btn_Delete.Appearance.Options.UseBackColor = true;
             this.btn_Delete.Appearance.Options.UseBorderColor = true;
             this.btn_Delete.ImageOptions.SvgImage = ((DevExpress.Utils.Svg.SvgImage)(resources.GetObject("btn_Delete.ImageOptions.SvgImage")));
+            this.btn_Delete.Size = new System.Drawing.Size(56, 29);
+            this.btn_Delete.Text = "Xóa";
             this.btn_Delete.Click += new System.EventHandler(this.btn_Delete_Click);
             // 
             // btn_Select
@@ -170,6 +180,8 @@
             this.btn_Select.Appearance.Options.UseBackColor = true;
             this.btn_Select.Appearance.Options.UseBorderColor = true;
             this.btn_Select.ImageOptions.SvgImage = ((DevExpress.Utils.Svg.SvgImage)(resources.GetObject("btn_Select.ImageOptions.SvgImage")));
+            this.btn_Select.Size = new System.Drawing.Size(56, 29);
+            this.btn_Select.Text = "Tìm kiếm";
             this.btn_Select.Click += new System.EventHandler(this.btn_Select_Click);
             // 
             // btn_Print
@@ -179,6 +191,8 @@
             this.btn_Print.Appearance.Options.UseBackColor = true;
             this.btn_Print.Appearance.Options.UseBorderColor = true;
             this.btn_Print.ImageOptions.SvgImage = ((DevExpress.Utils.Svg.SvgImage)(resources.GetObject("btn_Print.ImageOptions.SvgImage")));
+            this.btn_Print.Size = new System.Drawing.Size(56, 29);
+            this.btn_Print.Text = "In";
             // 
             // panel_H
             // 
@@ -193,61 +207,66 @@
             this.panel_H.Controls.Add(this.labelControl5);
             this.panel_H.Controls.Add(this.labelControl1);
             this.panel_H.Dock = System.Windows.Forms.DockStyle.Top;
-            this.panel_H.Location = new System.Drawing.Point(0, 40);
+            this.panel_H.Location = new System.Drawing.Point(0, 35);
+            this.panel_H.Margin = new System.Windows.Forms.Padding(2, 3, 2, 3);
             this.panel_H.Name = "panel_H";
-            this.panel_H.Size = new System.Drawing.Size(1119, 61);
+            this.panel_H.Size = new System.Drawing.Size(839, 53);
             this.panel_H.TabIndex = 12;
             // 
             // txt_UpUser
             // 
             this.txt_UpUser.Anchor = ((System.Windows.Forms.AnchorStyles)((System.Windows.Forms.AnchorStyles.Top | System.Windows.Forms.AnchorStyles.Right)));
             this.txt_UpUser.Enabled = false;
-            this.txt_UpUser.Location = new System.Drawing.Point(1025, 32);
+            this.txt_UpUser.Location = new System.Drawing.Point(769, 28);
+            this.txt_UpUser.Margin = new System.Windows.Forms.Padding(2, 3, 2, 3);
             this.txt_UpUser.Name = "txt_UpUser";
             this.txt_UpUser.Properties.Appearance.BackColor = System.Drawing.Color.LightGray;
-            this.txt_UpUser.Properties.Appearance.Font = new System.Drawing.Font("나눔바른고딕", 11F);
+            this.txt_UpUser.Properties.Appearance.Font = new System.Drawing.Font("NanumBarunGothic", 11F);
             this.txt_UpUser.Properties.Appearance.Options.UseBackColor = true;
             this.txt_UpUser.Properties.Appearance.Options.UseFont = true;
-            this.txt_UpUser.Size = new System.Drawing.Size(65, 24);
+            this.txt_UpUser.Size = new System.Drawing.Size(49, 24);
             this.txt_UpUser.TabIndex = 2;
             // 
             // txt_RegUser
             // 
             this.txt_RegUser.Anchor = ((System.Windows.Forms.AnchorStyles)((System.Windows.Forms.AnchorStyles.Top | System.Windows.Forms.AnchorStyles.Right)));
             this.txt_RegUser.Enabled = false;
-            this.txt_RegUser.Location = new System.Drawing.Point(1025, 5);
+            this.txt_RegUser.Location = new System.Drawing.Point(769, 4);
+            this.txt_RegUser.Margin = new System.Windows.Forms.Padding(2, 3, 2, 3);
             this.txt_RegUser.Name = "txt_RegUser";
             this.txt_RegUser.Properties.Appearance.BackColor = System.Drawing.Color.LightGray;
-            this.txt_RegUser.Properties.Appearance.Font = new System.Drawing.Font("나눔바른고딕", 11F);
+            this.txt_RegUser.Properties.Appearance.Font = new System.Drawing.Font("NanumBarunGothic", 11F);
             this.txt_RegUser.Properties.Appearance.Options.UseBackColor = true;
             this.txt_RegUser.Properties.Appearance.Options.UseFont = true;
-            this.txt_RegUser.Size = new System.Drawing.Size(65, 24);
+            this.txt_RegUser.Size = new System.Drawing.Size(49, 24);
             this.txt_RegUser.TabIndex = 2;
             // 
             // txt_UpDate
             // 
             this.txt_UpDate.Anchor = ((System.Windows.Forms.AnchorStyles)((System.Windows.Forms.AnchorStyles.Top | System.Windows.Forms.AnchorStyles.Right)));
             this.txt_UpDate.Enabled = false;
-            this.txt_UpDate.Location = new System.Drawing.Point(807, 32);
+            this.txt_UpDate.Location = new System.Drawing.Point(605, 28);
+            this.txt_UpDate.Margin = new System.Windows.Forms.Padding(2, 3, 2, 3);
             this.txt_UpDate.Name = "txt_UpDate";
             this.txt_UpDate.Properties.Appearance.BackColor = System.Drawing.Color.LightGray;
-            this.txt_UpDate.Properties.Appearance.Font = new System.Drawing.Font("나눔바른고딕", 11F);
+            this.txt_UpDate.Properties.Appearance.Font = new System.Drawing.Font("NanumBarunGothic", 11F);
             this.txt_UpDate.Properties.Appearance.Options.UseBackColor = true;
             this.txt_UpDate.Properties.Appearance.Options.UseFont = true;
-            this.txt_UpDate.Size = new System.Drawing.Size(145, 24);
+            this.txt_UpDate.Size = new System.Drawing.Size(109, 24);
             this.txt_UpDate.TabIndex = 1;
             // 
             // txt_ResultNo
             // 
             this.txt_ResultNo.Enabled = false;
-            this.txt_ResultNo.Location = new System.Drawing.Point(126, 13);
+            this.txt_ResultNo.Location = new System.Drawing.Point(94, 11);
+            this.txt_ResultNo.Margin = new System.Windows.Forms.Padding(2, 3, 2, 3);
             this.txt_ResultNo.Name = "txt_ResultNo";
             this.txt_ResultNo.Properties.Appearance.BackColor = System.Drawing.Color.LightGray;
-            this.txt_ResultNo.Properties.Appearance.Font = new System.Drawing.Font("나눔바른고딕", 12F);
+            this.txt_ResultNo.Properties.Appearance.Font = new System.Drawing.Font("NanumBarunGothic", 12F);
             this.txt_ResultNo.Properties.Appearance.Options.UseBackColor = true;
             this.txt_ResultNo.Properties.Appearance.Options.UseFont = true;
             this.txt_ResultNo.Properties.AutoHeight = false;
-            this.txt_ResultNo.Size = new System.Drawing.Size(340, 32);
+            this.txt_ResultNo.Size = new System.Drawing.Size(255, 28);
             this.txt_ResultNo.TabIndex = 1;
             this.txt_ResultNo.EditValueChanged += new System.EventHandler(this.txt_ResultNo_EditValueChanged);
             // 
@@ -255,21 +274,23 @@
             // 
             this.txt_RegDate.Anchor = ((System.Windows.Forms.AnchorStyles)((System.Windows.Forms.AnchorStyles.Top | System.Windows.Forms.AnchorStyles.Right)));
             this.txt_RegDate.Enabled = false;
-            this.txt_RegDate.Location = new System.Drawing.Point(807, 5);
+            this.txt_RegDate.Location = new System.Drawing.Point(605, 4);
+            this.txt_RegDate.Margin = new System.Windows.Forms.Padding(2, 3, 2, 3);
             this.txt_RegDate.Name = "txt_RegDate";
             this.txt_RegDate.Properties.Appearance.BackColor = System.Drawing.Color.LightGray;
-            this.txt_RegDate.Properties.Appearance.Font = new System.Drawing.Font("나눔바른고딕", 11F);
+            this.txt_RegDate.Properties.Appearance.Font = new System.Drawing.Font("NanumBarunGothic", 11F);
             this.txt_RegDate.Properties.Appearance.Options.UseBackColor = true;
             this.txt_RegDate.Properties.Appearance.Options.UseFont = true;
-            this.txt_RegDate.Size = new System.Drawing.Size(145, 24);
+            this.txt_RegDate.Size = new System.Drawing.Size(109, 24);
             this.txt_RegDate.TabIndex = 1;
             // 
             // labelControl2
             // 
             this.labelControl2.Anchor = ((System.Windows.Forms.AnchorStyles)((System.Windows.Forms.AnchorStyles.Top | System.Windows.Forms.AnchorStyles.Right)));
-            this.labelControl2.Appearance.Font = new System.Drawing.Font("나눔바른고딕", 11F);
+            this.labelControl2.Appearance.Font = new System.Drawing.Font("NanumBarunGothic", 11F);
             this.labelControl2.Appearance.Options.UseFont = true;
-            this.labelControl2.Location = new System.Drawing.Point(733, 34);
+            this.labelControl2.Location = new System.Drawing.Point(550, 29);
+            this.labelControl2.Margin = new System.Windows.Forms.Padding(2, 3, 2, 3);
             this.labelControl2.Name = "labelControl2";
             this.labelControl2.Size = new System.Drawing.Size(52, 17);
             this.labelControl2.TabIndex = 0;
@@ -278,9 +299,10 @@
             // labelControl4
             // 
             this.labelControl4.Anchor = ((System.Windows.Forms.AnchorStyles)((System.Windows.Forms.AnchorStyles.Top | System.Windows.Forms.AnchorStyles.Right)));
-            this.labelControl4.Appearance.Font = new System.Drawing.Font("나눔바른고딕", 11F);
+            this.labelControl4.Appearance.Font = new System.Drawing.Font("NanumBarunGothic", 11F);
             this.labelControl4.Appearance.Options.UseFont = true;
-            this.labelControl4.Location = new System.Drawing.Point(973, 34);
+            this.labelControl4.Location = new System.Drawing.Point(730, 29);
+            this.labelControl4.Margin = new System.Windows.Forms.Padding(2, 3, 2, 3);
             this.labelControl4.Name = "labelControl4";
             this.labelControl4.Size = new System.Drawing.Size(39, 17);
             this.labelControl4.TabIndex = 0;
@@ -289,9 +311,10 @@
             // labelControl3
             // 
             this.labelControl3.Anchor = ((System.Windows.Forms.AnchorStyles)((System.Windows.Forms.AnchorStyles.Top | System.Windows.Forms.AnchorStyles.Right)));
-            this.labelControl3.Appearance.Font = new System.Drawing.Font("나눔바른고딕", 11F);
+            this.labelControl3.Appearance.Font = new System.Drawing.Font("NanumBarunGothic", 11F);
             this.labelControl3.Appearance.Options.UseFont = true;
-            this.labelControl3.Location = new System.Drawing.Point(973, 8);
+            this.labelControl3.Location = new System.Drawing.Point(730, 7);
+            this.labelControl3.Margin = new System.Windows.Forms.Padding(2, 3, 2, 3);
             this.labelControl3.Name = "labelControl3";
             this.labelControl3.Size = new System.Drawing.Size(39, 17);
             this.labelControl3.TabIndex = 0;
@@ -299,11 +322,12 @@
             // 
             // labelControl5
             // 
-            this.labelControl5.Appearance.Font = new System.Drawing.Font("나눔바른고딕", 12F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(129)));
+            this.labelControl5.Appearance.Font = new System.Drawing.Font("NanumBarunGothic", 12F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(129)));
             this.labelControl5.Appearance.ForeColor = System.Drawing.Color.FromArgb(((int)(((byte)(44)))), ((int)(((byte)(85)))), ((int)(((byte)(152)))));
             this.labelControl5.Appearance.Options.UseFont = true;
             this.labelControl5.Appearance.Options.UseForeColor = true;
-            this.labelControl5.Location = new System.Drawing.Point(23, 19);
+            this.labelControl5.Location = new System.Drawing.Point(17, 16);
+            this.labelControl5.Margin = new System.Windows.Forms.Padding(2, 3, 2, 3);
             this.labelControl5.Name = "labelControl5";
             this.labelControl5.Size = new System.Drawing.Size(73, 19);
             this.labelControl5.TabIndex = 0;
@@ -312,9 +336,10 @@
             // labelControl1
             // 
             this.labelControl1.Anchor = ((System.Windows.Forms.AnchorStyles)((System.Windows.Forms.AnchorStyles.Top | System.Windows.Forms.AnchorStyles.Right)));
-            this.labelControl1.Appearance.Font = new System.Drawing.Font("나눔바른고딕", 11F);
+            this.labelControl1.Appearance.Font = new System.Drawing.Font("NanumBarunGothic", 11F);
             this.labelControl1.Appearance.Options.UseFont = true;
-            this.labelControl1.Location = new System.Drawing.Point(733, 8);
+            this.labelControl1.Location = new System.Drawing.Point(550, 7);
+            this.labelControl1.Margin = new System.Windows.Forms.Padding(2, 3, 2, 3);
             this.labelControl1.Name = "labelControl1";
             this.labelControl1.Size = new System.Drawing.Size(52, 17);
             this.labelControl1.TabIndex = 0;
@@ -354,48 +379,52 @@
             this.panel_M.Controls.Add(this.dt_ResultDate);
             this.panel_M.Controls.Add(this.labelControl9);
             this.panel_M.Dock = System.Windows.Forms.DockStyle.Top;
-            this.panel_M.Location = new System.Drawing.Point(0, 101);
+            this.panel_M.Location = new System.Drawing.Point(0, 88);
+            this.panel_M.Margin = new System.Windows.Forms.Padding(2, 3, 2, 3);
             this.panel_M.Name = "panel_M";
-            this.panel_M.Size = new System.Drawing.Size(1119, 202);
+            this.panel_M.Size = new System.Drawing.Size(839, 196);
             this.panel_M.TabIndex = 13;
             // 
             // txt_CompanyName
             // 
             this.txt_CompanyName.EditValue = "";
             this.txt_CompanyName.Enabled = false;
-            this.txt_CompanyName.Location = new System.Drawing.Point(226, 43);
+            this.txt_CompanyName.Location = new System.Drawing.Point(170, 37);
+            this.txt_CompanyName.Margin = new System.Windows.Forms.Padding(2, 3, 2, 3);
             this.txt_CompanyName.Name = "txt_CompanyName";
             this.txt_CompanyName.Properties.Appearance.BackColor = System.Drawing.Color.LightGray;
-            this.txt_CompanyName.Properties.Appearance.Font = new System.Drawing.Font("나눔바른고딕", 11F);
+            this.txt_CompanyName.Properties.Appearance.Font = new System.Drawing.Font("NanumBarunGothic", 11F);
             this.txt_CompanyName.Properties.Appearance.Options.UseBackColor = true;
             this.txt_CompanyName.Properties.Appearance.Options.UseFont = true;
-            this.txt_CompanyName.Size = new System.Drawing.Size(186, 24);
+            this.txt_CompanyName.Size = new System.Drawing.Size(140, 24);
             this.txt_CompanyName.TabIndex = 91;
             // 
             // txt_CompanyCode
             // 
             this.txt_CompanyCode.EditValue = "";
-            this.txt_CompanyCode.Location = new System.Drawing.Point(126, 43);
+            this.txt_CompanyCode.Location = new System.Drawing.Point(94, 37);
+            this.txt_CompanyCode.Margin = new System.Windows.Forms.Padding(2, 3, 2, 3);
             this.txt_CompanyCode.Name = "txt_CompanyCode";
             this.txt_CompanyCode.Properties.Appearance.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(252)))), ((int)(((byte)(247)))), ((int)(((byte)(182)))));
-            this.txt_CompanyCode.Properties.Appearance.Font = new System.Drawing.Font("나눔바른고딕", 11F);
+            this.txt_CompanyCode.Properties.Appearance.Font = new System.Drawing.Font("NanumBarunGothic", 11F);
             this.txt_CompanyCode.Properties.Appearance.Options.UseBackColor = true;
             this.txt_CompanyCode.Properties.Appearance.Options.UseFont = true;
             this.txt_CompanyCode.Properties.Buttons.AddRange(new DevExpress.XtraEditors.Controls.EditorButton[] {
             new DevExpress.XtraEditors.Controls.EditorButton(DevExpress.XtraEditors.Controls.ButtonPredefines.Search)});
             this.txt_CompanyCode.Properties.ButtonClick += new DevExpress.XtraEditors.Controls.ButtonPressedEventHandler(this.txt_CompanyCode_Properties_ButtonClick);
-            this.txt_CompanyCode.Size = new System.Drawing.Size(94, 24);
+            this.txt_CompanyCode.Size = new System.Drawing.Size(70, 24);
             this.txt_CompanyCode.TabIndex = 2;
             this.txt_CompanyCode.EditValueChanged += new System.EventHandler(this.txt_CompanyCode_EditValueChanged);
             this.txt_CompanyCode.KeyPress += new System.Windows.Forms.KeyPressEventHandler(this.txt_CompanyCode_KeyPress);
             // 
             // labelControl19
             // 
-            this.labelControl19.Appearance.Font = new System.Drawing.Font("나눔바른고딕", 11.25F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(129)));
+            this.labelControl19.Appearance.Font = new System.Drawing.Font("NanumBarunGothic", 11.25F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(129)));
             this.labelControl19.Appearance.ForeColor = System.Drawing.Color.FromArgb(((int)(((byte)(44)))), ((int)(((byte)(85)))), ((int)(((byte)(152)))));
             this.labelControl19.Appearance.Options.UseFont = true;
             this.labelControl19.Appearance.Options.UseForeColor = true;
-            this.labelControl19.Location = new System.Drawing.Point(23, 46);
+            this.labelControl19.Location = new System.Drawing.Point(17, 40);
+            this.labelControl19.Margin = new System.Windows.Forms.Padding(2, 3, 2, 3);
             this.labelControl19.Name = "labelControl19";
             this.labelControl19.Size = new System.Drawing.Size(54, 17);
             this.labelControl19.TabIndex = 90;
@@ -404,40 +433,43 @@
             // txt_Qty
             // 
             this.txt_Qty.Enabled = false;
-            this.txt_Qty.Location = new System.Drawing.Point(734, 133);
+            this.txt_Qty.Location = new System.Drawing.Point(550, 115);
+            this.txt_Qty.Margin = new System.Windows.Forms.Padding(2, 3, 2, 3);
             this.txt_Qty.Name = "txt_Qty";
             this.txt_Qty.Properties.Appearance.BackColor = System.Drawing.Color.LightGray;
-            this.txt_Qty.Properties.Appearance.Font = new System.Drawing.Font("나눔바른고딕", 11F);
+            this.txt_Qty.Properties.Appearance.Font = new System.Drawing.Font("NanumBarunGothic", 11F);
             this.txt_Qty.Properties.Appearance.Options.UseBackColor = true;
             this.txt_Qty.Properties.Appearance.Options.UseFont = true;
             this.txt_Qty.Properties.AutoHeight = false;
             this.txt_Qty.Properties.MaskSettings.Set("MaskManagerType", typeof(DevExpress.Data.Mask.NumericMaskManager));
             this.txt_Qty.Properties.MaxLength = 150;
             this.txt_Qty.Properties.UseMaskAsDisplayFormat = true;
-            this.txt_Qty.Size = new System.Drawing.Size(80, 24);
+            this.txt_Qty.Size = new System.Drawing.Size(60, 21);
             this.txt_Qty.TabIndex = 88;
             // 
             // txt_BadQty
             // 
-            this.txt_BadQty.Location = new System.Drawing.Point(734, 167);
+            this.txt_BadQty.Location = new System.Drawing.Point(550, 145);
+            this.txt_BadQty.Margin = new System.Windows.Forms.Padding(2, 3, 2, 3);
             this.txt_BadQty.Name = "txt_BadQty";
-            this.txt_BadQty.Properties.Appearance.Font = new System.Drawing.Font("나눔바른고딕", 11F);
+            this.txt_BadQty.Properties.Appearance.Font = new System.Drawing.Font("NanumBarunGothic", 11F);
             this.txt_BadQty.Properties.Appearance.Options.UseFont = true;
             this.txt_BadQty.Properties.AutoHeight = false;
             this.txt_BadQty.Properties.MaskSettings.Set("MaskManagerType", typeof(DevExpress.Data.Mask.NumericMaskManager));
             this.txt_BadQty.Properties.MaxLength = 150;
             this.txt_BadQty.Properties.UseMaskAsDisplayFormat = true;
-            this.txt_BadQty.Size = new System.Drawing.Size(80, 24);
+            this.txt_BadQty.Size = new System.Drawing.Size(60, 21);
             this.txt_BadQty.TabIndex = 8;
             this.txt_BadQty.EditValueChanged += new System.EventHandler(this.txt_BadQty_EditValueChanged);
             // 
             // labelControl18
             // 
-            this.labelControl18.Appearance.Font = new System.Drawing.Font("나눔바른고딕", 11.25F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(129)));
+            this.labelControl18.Appearance.Font = new System.Drawing.Font("NanumBarunGothic", 11.25F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(129)));
             this.labelControl18.Appearance.ForeColor = System.Drawing.Color.FromArgb(((int)(((byte)(80)))), ((int)(((byte)(80)))), ((int)(((byte)(80)))));
             this.labelControl18.Appearance.Options.UseFont = true;
             this.labelControl18.Appearance.Options.UseForeColor = true;
-            this.labelControl18.Location = new System.Drawing.Point(676, 170);
+            this.labelControl18.Location = new System.Drawing.Point(507, 147);
+            this.labelControl18.Margin = new System.Windows.Forms.Padding(2, 3, 2, 3);
             this.labelControl18.Name = "labelControl18";
             this.labelControl18.Size = new System.Drawing.Size(52, 17);
             this.labelControl18.TabIndex = 86;
@@ -445,25 +477,27 @@
             // 
             // txt_GoodQty
             // 
-            this.txt_GoodQty.Location = new System.Drawing.Point(569, 167);
+            this.txt_GoodQty.Location = new System.Drawing.Point(427, 145);
+            this.txt_GoodQty.Margin = new System.Windows.Forms.Padding(2, 3, 2, 3);
             this.txt_GoodQty.Name = "txt_GoodQty";
-            this.txt_GoodQty.Properties.Appearance.Font = new System.Drawing.Font("나눔바른고딕", 11F);
+            this.txt_GoodQty.Properties.Appearance.Font = new System.Drawing.Font("NanumBarunGothic", 11F);
             this.txt_GoodQty.Properties.Appearance.Options.UseFont = true;
             this.txt_GoodQty.Properties.AutoHeight = false;
             this.txt_GoodQty.Properties.MaskSettings.Set("MaskManagerType", typeof(DevExpress.Data.Mask.NumericMaskManager));
             this.txt_GoodQty.Properties.MaxLength = 150;
             this.txt_GoodQty.Properties.UseMaskAsDisplayFormat = true;
-            this.txt_GoodQty.Size = new System.Drawing.Size(80, 24);
+            this.txt_GoodQty.Size = new System.Drawing.Size(60, 21);
             this.txt_GoodQty.TabIndex = 7;
             this.txt_GoodQty.EditValueChanged += new System.EventHandler(this.txt_GoodQty_EditValueChanged);
             // 
             // labelControl17
             // 
-            this.labelControl17.Appearance.Font = new System.Drawing.Font("나눔바른고딕", 11.25F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(129)));
+            this.labelControl17.Appearance.Font = new System.Drawing.Font("NanumBarunGothic", 11.25F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(129)));
             this.labelControl17.Appearance.ForeColor = System.Drawing.Color.FromArgb(((int)(((byte)(80)))), ((int)(((byte)(80)))), ((int)(((byte)(80)))));
             this.labelControl17.Appearance.Options.UseFont = true;
             this.labelControl17.Appearance.Options.UseForeColor = true;
-            this.labelControl17.Location = new System.Drawing.Point(510, 170);
+            this.labelControl17.Location = new System.Drawing.Point(382, 147);
+            this.labelControl17.Margin = new System.Windows.Forms.Padding(2, 3, 2, 3);
             this.labelControl17.Name = "labelControl17";
             this.labelControl17.Size = new System.Drawing.Size(52, 17);
             this.labelControl17.TabIndex = 84;
@@ -472,11 +506,11 @@
             // dt_ETime
             // 
             this.dt_ETime.EditValue = null;
-            this.dt_ETime.Location = new System.Drawing.Point(828, 103);
+            this.dt_ETime.Location = new System.Drawing.Point(621, 89);
+            this.dt_ETime.Margin = new System.Windows.Forms.Padding(2, 3, 2, 3);
             this.dt_ETime.Name = "dt_ETime";
-            this.dt_ETime.Properties.Appearance.Font = new System.Drawing.Font("나눔바른고딕", 11.25F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(129)));
+            this.dt_ETime.Properties.Appearance.Font = new System.Drawing.Font("NanumBarunGothic", 11.25F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(129)));
             this.dt_ETime.Properties.Appearance.Options.UseFont = true;
-            this.dt_ETime.Properties.BeepOnError = false;
             this.dt_ETime.Properties.Buttons.AddRange(new DevExpress.XtraEditors.Controls.EditorButton[] {
             new DevExpress.XtraEditors.Controls.EditorButton(DevExpress.XtraEditors.Controls.ButtonPredefines.Combo)});
             this.dt_ETime.Properties.CalendarTimeEditing = DevExpress.Utils.DefaultBoolean.True;
@@ -487,25 +521,26 @@
             this.dt_ETime.Properties.EditFormat.FormatString = "yyyy-MM-dd HH:mm";
             this.dt_ETime.Properties.EditFormat.FormatType = DevExpress.Utils.FormatType.DateTime;
             this.dt_ETime.Properties.MaskSettings.Set("mask", "yyyy-MM-dd HH:mm");
-            this.dt_ETime.Size = new System.Drawing.Size(167, 24);
+            this.dt_ETime.Size = new System.Drawing.Size(125, 24);
             this.dt_ETime.TabIndex = 6;
             // 
             // labelControl10
             // 
-            this.labelControl10.Location = new System.Drawing.Point(813, 106);
+            this.labelControl10.Location = new System.Drawing.Point(610, 92);
+            this.labelControl10.Margin = new System.Windows.Forms.Padding(2, 3, 2, 3);
             this.labelControl10.Name = "labelControl10";
-            this.labelControl10.Size = new System.Drawing.Size(9, 15);
+            this.labelControl10.Size = new System.Drawing.Size(8, 13);
             this.labelControl10.TabIndex = 80;
             this.labelControl10.Text = "~";
             // 
             // dt_STime
             // 
             this.dt_STime.EditValue = null;
-            this.dt_STime.Location = new System.Drawing.Point(640, 103);
+            this.dt_STime.Location = new System.Drawing.Point(480, 89);
+            this.dt_STime.Margin = new System.Windows.Forms.Padding(2, 3, 2, 3);
             this.dt_STime.Name = "dt_STime";
-            this.dt_STime.Properties.Appearance.Font = new System.Drawing.Font("나눔바른고딕", 11.25F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(129)));
+            this.dt_STime.Properties.Appearance.Font = new System.Drawing.Font("NanumBarunGothic", 11.25F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(129)));
             this.dt_STime.Properties.Appearance.Options.UseFont = true;
-            this.dt_STime.Properties.BeepOnError = false;
             this.dt_STime.Properties.Buttons.AddRange(new DevExpress.XtraEditors.Controls.EditorButton[] {
             new DevExpress.XtraEditors.Controls.EditorButton(DevExpress.XtraEditors.Controls.ButtonPredefines.Combo)});
             this.dt_STime.Properties.CalendarTimeEditing = DevExpress.Utils.DefaultBoolean.True;
@@ -516,16 +551,17 @@
             this.dt_STime.Properties.EditFormat.FormatString = "yyyy-MM-dd HH:mm";
             this.dt_STime.Properties.EditFormat.FormatType = DevExpress.Utils.FormatType.DateTime;
             this.dt_STime.Properties.MaskSettings.Set("mask", "yyyy-MM-dd HH:mm");
-            this.dt_STime.Size = new System.Drawing.Size(167, 24);
+            this.dt_STime.Size = new System.Drawing.Size(125, 24);
             this.dt_STime.TabIndex = 5;
             // 
             // labelControl8
             // 
-            this.labelControl8.Appearance.Font = new System.Drawing.Font("나눔바른고딕", 11.25F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(129)));
+            this.labelControl8.Appearance.Font = new System.Drawing.Font("NanumBarunGothic", 11.25F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(129)));
             this.labelControl8.Appearance.ForeColor = System.Drawing.Color.FromArgb(((int)(((byte)(44)))), ((int)(((byte)(85)))), ((int)(((byte)(152)))));
             this.labelControl8.Appearance.Options.UseFont = true;
             this.labelControl8.Appearance.Options.UseForeColor = true;
-            this.labelControl8.Location = new System.Drawing.Point(510, 105);
+            this.labelControl8.Location = new System.Drawing.Point(382, 91);
+            this.labelControl8.Margin = new System.Windows.Forms.Padding(2, 3, 2, 3);
             this.labelControl8.Name = "labelControl8";
             this.labelControl8.Size = new System.Drawing.Size(108, 17);
             this.labelControl8.TabIndex = 76;
@@ -534,26 +570,28 @@
             // txt_WorkQty
             // 
             this.txt_WorkQty.Enabled = false;
-            this.txt_WorkQty.Location = new System.Drawing.Point(569, 134);
+            this.txt_WorkQty.Location = new System.Drawing.Point(427, 116);
+            this.txt_WorkQty.Margin = new System.Windows.Forms.Padding(2, 3, 2, 3);
             this.txt_WorkQty.Name = "txt_WorkQty";
             this.txt_WorkQty.Properties.Appearance.BackColor = System.Drawing.Color.LightGray;
-            this.txt_WorkQty.Properties.Appearance.Font = new System.Drawing.Font("나눔바른고딕", 11F);
+            this.txt_WorkQty.Properties.Appearance.Font = new System.Drawing.Font("NanumBarunGothic", 11F);
             this.txt_WorkQty.Properties.Appearance.Options.UseBackColor = true;
             this.txt_WorkQty.Properties.Appearance.Options.UseFont = true;
             this.txt_WorkQty.Properties.AutoHeight = false;
             this.txt_WorkQty.Properties.MaskSettings.Set("MaskManagerType", typeof(DevExpress.Data.Mask.NumericMaskManager));
             this.txt_WorkQty.Properties.MaxLength = 150;
             this.txt_WorkQty.Properties.UseMaskAsDisplayFormat = true;
-            this.txt_WorkQty.Size = new System.Drawing.Size(80, 24);
+            this.txt_WorkQty.Size = new System.Drawing.Size(60, 21);
             this.txt_WorkQty.TabIndex = 74;
             // 
             // labelControl15
             // 
-            this.labelControl15.Appearance.Font = new System.Drawing.Font("나눔바른고딕", 11.25F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(129)));
+            this.labelControl15.Appearance.Font = new System.Drawing.Font("NanumBarunGothic", 11.25F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(129)));
             this.labelControl15.Appearance.ForeColor = System.Drawing.Color.FromArgb(((int)(((byte)(80)))), ((int)(((byte)(80)))), ((int)(((byte)(80)))));
             this.labelControl15.Appearance.Options.UseFont = true;
             this.labelControl15.Appearance.Options.UseForeColor = true;
-            this.labelControl15.Location = new System.Drawing.Point(510, 137);
+            this.labelControl15.Location = new System.Drawing.Point(382, 119);
+            this.labelControl15.Margin = new System.Windows.Forms.Padding(2, 3, 2, 3);
             this.labelControl15.Name = "labelControl15";
             this.labelControl15.Size = new System.Drawing.Size(52, 17);
             this.labelControl15.TabIndex = 75;
@@ -563,38 +601,41 @@
             // 
             this.txt_CustomName.EditValue = "";
             this.txt_CustomName.Enabled = false;
-            this.txt_CustomName.Location = new System.Drawing.Point(739, 72);
+            this.txt_CustomName.Location = new System.Drawing.Point(554, 62);
+            this.txt_CustomName.Margin = new System.Windows.Forms.Padding(2, 3, 2, 3);
             this.txt_CustomName.Name = "txt_CustomName";
             this.txt_CustomName.Properties.Appearance.BackColor = System.Drawing.Color.LightGray;
-            this.txt_CustomName.Properties.Appearance.Font = new System.Drawing.Font("나눔바른고딕", 11F);
+            this.txt_CustomName.Properties.Appearance.Font = new System.Drawing.Font("NanumBarunGothic", 11F);
             this.txt_CustomName.Properties.Appearance.Options.UseBackColor = true;
             this.txt_CustomName.Properties.Appearance.Options.UseFont = true;
-            this.txt_CustomName.Size = new System.Drawing.Size(256, 24);
+            this.txt_CustomName.Size = new System.Drawing.Size(192, 24);
             this.txt_CustomName.TabIndex = 73;
             // 
             // txt_CustomCode
             // 
             this.txt_CustomCode.EditValue = "";
             this.txt_CustomCode.Enabled = false;
-            this.txt_CustomCode.Location = new System.Drawing.Point(639, 72);
+            this.txt_CustomCode.Location = new System.Drawing.Point(479, 62);
+            this.txt_CustomCode.Margin = new System.Windows.Forms.Padding(2, 3, 2, 3);
             this.txt_CustomCode.Name = "txt_CustomCode";
             this.txt_CustomCode.Properties.Appearance.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(252)))), ((int)(((byte)(247)))), ((int)(((byte)(182)))));
-            this.txt_CustomCode.Properties.Appearance.Font = new System.Drawing.Font("나눔바른고딕", 11F);
+            this.txt_CustomCode.Properties.Appearance.Font = new System.Drawing.Font("NanumBarunGothic", 11F);
             this.txt_CustomCode.Properties.Appearance.Options.UseBackColor = true;
             this.txt_CustomCode.Properties.Appearance.Options.UseFont = true;
             this.txt_CustomCode.Properties.Buttons.AddRange(new DevExpress.XtraEditors.Controls.EditorButton[] {
             new DevExpress.XtraEditors.Controls.EditorButton(DevExpress.XtraEditors.Controls.ButtonPredefines.Search)});
-            this.txt_CustomCode.Size = new System.Drawing.Size(94, 24);
+            this.txt_CustomCode.Size = new System.Drawing.Size(70, 24);
             this.txt_CustomCode.TabIndex = 6;
             this.txt_CustomCode.EditValueChanged += new System.EventHandler(this.txt_CustomCode_EditValueChanged);
             // 
             // labelControl14
             // 
-            this.labelControl14.Appearance.Font = new System.Drawing.Font("나눔바른고딕", 11.25F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(129)));
+            this.labelControl14.Appearance.Font = new System.Drawing.Font("NanumBarunGothic", 11.25F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(129)));
             this.labelControl14.Appearance.ForeColor = System.Drawing.Color.FromArgb(((int)(((byte)(44)))), ((int)(((byte)(85)))), ((int)(((byte)(152)))));
             this.labelControl14.Appearance.Options.UseFont = true;
             this.labelControl14.Appearance.Options.UseForeColor = true;
-            this.labelControl14.Location = new System.Drawing.Point(510, 76);
+            this.labelControl14.Location = new System.Drawing.Point(382, 66);
+            this.labelControl14.Margin = new System.Windows.Forms.Padding(2, 3, 2, 3);
             this.labelControl14.Name = "labelControl14";
             this.labelControl14.Size = new System.Drawing.Size(82, 17);
             this.labelControl14.TabIndex = 72;
@@ -602,11 +643,12 @@
             // 
             // labelControl21
             // 
-            this.labelControl21.Appearance.Font = new System.Drawing.Font("나눔바른고딕", 11.25F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(129)));
+            this.labelControl21.Appearance.Font = new System.Drawing.Font("NanumBarunGothic", 11.25F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(129)));
             this.labelControl21.Appearance.ForeColor = System.Drawing.Color.FromArgb(((int)(((byte)(80)))), ((int)(((byte)(80)))), ((int)(((byte)(80)))));
             this.labelControl21.Appearance.Options.UseFont = true;
             this.labelControl21.Appearance.Options.UseForeColor = true;
-            this.labelControl21.Location = new System.Drawing.Point(660, 137);
+            this.labelControl21.Location = new System.Drawing.Point(495, 119);
+            this.labelControl21.Margin = new System.Windows.Forms.Padding(2, 3, 2, 3);
             this.labelControl21.Name = "labelControl21";
             this.labelControl21.Size = new System.Drawing.Size(68, 17);
             this.labelControl21.TabIndex = 70;
@@ -616,38 +658,41 @@
             // 
             this.txt_ProcessName.EditValue = "";
             this.txt_ProcessName.Enabled = false;
-            this.txt_ProcessName.Location = new System.Drawing.Point(739, 42);
+            this.txt_ProcessName.Location = new System.Drawing.Point(554, 36);
+            this.txt_ProcessName.Margin = new System.Windows.Forms.Padding(2, 3, 2, 3);
             this.txt_ProcessName.Name = "txt_ProcessName";
             this.txt_ProcessName.Properties.Appearance.BackColor = System.Drawing.Color.LightGray;
-            this.txt_ProcessName.Properties.Appearance.Font = new System.Drawing.Font("나눔바른고딕", 11F);
+            this.txt_ProcessName.Properties.Appearance.Font = new System.Drawing.Font("NanumBarunGothic", 11F);
             this.txt_ProcessName.Properties.Appearance.Options.UseBackColor = true;
             this.txt_ProcessName.Properties.Appearance.Options.UseFont = true;
-            this.txt_ProcessName.Size = new System.Drawing.Size(256, 24);
+            this.txt_ProcessName.Size = new System.Drawing.Size(192, 24);
             this.txt_ProcessName.TabIndex = 68;
             // 
             // txt_ProcessCode
             // 
             this.txt_ProcessCode.EditValue = "";
             this.txt_ProcessCode.Enabled = false;
-            this.txt_ProcessCode.Location = new System.Drawing.Point(639, 42);
+            this.txt_ProcessCode.Location = new System.Drawing.Point(479, 36);
+            this.txt_ProcessCode.Margin = new System.Windows.Forms.Padding(2, 3, 2, 3);
             this.txt_ProcessCode.Name = "txt_ProcessCode";
             this.txt_ProcessCode.Properties.Appearance.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(252)))), ((int)(((byte)(247)))), ((int)(((byte)(182)))));
-            this.txt_ProcessCode.Properties.Appearance.Font = new System.Drawing.Font("나눔바른고딕", 11F);
+            this.txt_ProcessCode.Properties.Appearance.Font = new System.Drawing.Font("NanumBarunGothic", 11F);
             this.txt_ProcessCode.Properties.Appearance.Options.UseBackColor = true;
             this.txt_ProcessCode.Properties.Appearance.Options.UseFont = true;
             this.txt_ProcessCode.Properties.Buttons.AddRange(new DevExpress.XtraEditors.Controls.EditorButton[] {
             new DevExpress.XtraEditors.Controls.EditorButton(DevExpress.XtraEditors.Controls.ButtonPredefines.Search)});
-            this.txt_ProcessCode.Size = new System.Drawing.Size(94, 24);
+            this.txt_ProcessCode.Size = new System.Drawing.Size(70, 24);
             this.txt_ProcessCode.TabIndex = 5;
             this.txt_ProcessCode.EditValueChanged += new System.EventHandler(this.txt_ProcessCode_EditValueChanged);
             // 
             // labelControl13
             // 
-            this.labelControl13.Appearance.Font = new System.Drawing.Font("나눔바른고딕", 11.25F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(129)));
+            this.labelControl13.Appearance.Font = new System.Drawing.Font("NanumBarunGothic", 11.25F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(129)));
             this.labelControl13.Appearance.ForeColor = System.Drawing.Color.FromArgb(((int)(((byte)(44)))), ((int)(((byte)(85)))), ((int)(((byte)(152)))));
             this.labelControl13.Appearance.Options.UseFont = true;
             this.labelControl13.Appearance.Options.UseForeColor = true;
-            this.labelControl13.Location = new System.Drawing.Point(510, 46);
+            this.labelControl13.Location = new System.Drawing.Point(382, 40);
+            this.labelControl13.Margin = new System.Windows.Forms.Padding(2, 3, 2, 3);
             this.labelControl13.Name = "labelControl13";
             this.labelControl13.Size = new System.Drawing.Size(40, 17);
             this.labelControl13.TabIndex = 67;
@@ -656,22 +701,24 @@
             // txt_Ssize
             // 
             this.txt_Ssize.Enabled = false;
-            this.txt_Ssize.Location = new System.Drawing.Point(126, 165);
+            this.txt_Ssize.Location = new System.Drawing.Point(94, 143);
+            this.txt_Ssize.Margin = new System.Windows.Forms.Padding(2, 3, 2, 3);
             this.txt_Ssize.Name = "txt_Ssize";
             this.txt_Ssize.Properties.Appearance.BackColor = System.Drawing.Color.LightGray;
-            this.txt_Ssize.Properties.Appearance.Font = new System.Drawing.Font("나눔바른고딕", 11F);
+            this.txt_Ssize.Properties.Appearance.Font = new System.Drawing.Font("NanumBarunGothic", 11F);
             this.txt_Ssize.Properties.Appearance.Options.UseBackColor = true;
             this.txt_Ssize.Properties.Appearance.Options.UseFont = true;
-            this.txt_Ssize.Size = new System.Drawing.Size(286, 24);
+            this.txt_Ssize.Size = new System.Drawing.Size(214, 24);
             this.txt_Ssize.TabIndex = 59;
             // 
             // labelControl7
             // 
-            this.labelControl7.Appearance.Font = new System.Drawing.Font("나눔바른고딕", 11.25F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(129)));
+            this.labelControl7.Appearance.Font = new System.Drawing.Font("NanumBarunGothic", 11.25F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(129)));
             this.labelControl7.Appearance.ForeColor = System.Drawing.Color.FromArgb(((int)(((byte)(80)))), ((int)(((byte)(80)))), ((int)(((byte)(80)))));
             this.labelControl7.Appearance.Options.UseFont = true;
             this.labelControl7.Appearance.Options.UseForeColor = true;
-            this.labelControl7.Location = new System.Drawing.Point(25, 168);
+            this.labelControl7.Location = new System.Drawing.Point(19, 146);
+            this.labelControl7.Margin = new System.Windows.Forms.Padding(2, 3, 2, 3);
             this.labelControl7.Name = "labelControl7";
             this.labelControl7.Size = new System.Drawing.Size(26, 17);
             this.labelControl7.TabIndex = 56;
@@ -680,22 +727,24 @@
             // txt_Item_Name
             // 
             this.txt_Item_Name.Enabled = false;
-            this.txt_Item_Name.Location = new System.Drawing.Point(126, 134);
+            this.txt_Item_Name.Location = new System.Drawing.Point(94, 116);
+            this.txt_Item_Name.Margin = new System.Windows.Forms.Padding(2, 3, 2, 3);
             this.txt_Item_Name.Name = "txt_Item_Name";
             this.txt_Item_Name.Properties.Appearance.BackColor = System.Drawing.Color.LightGray;
-            this.txt_Item_Name.Properties.Appearance.Font = new System.Drawing.Font("나눔바른고딕", 11F);
+            this.txt_Item_Name.Properties.Appearance.Font = new System.Drawing.Font("NanumBarunGothic", 11F);
             this.txt_Item_Name.Properties.Appearance.Options.UseBackColor = true;
             this.txt_Item_Name.Properties.Appearance.Options.UseFont = true;
-            this.txt_Item_Name.Size = new System.Drawing.Size(286, 24);
+            this.txt_Item_Name.Size = new System.Drawing.Size(214, 24);
             this.txt_Item_Name.TabIndex = 55;
             // 
             // labelControl6
             // 
-            this.labelControl6.Appearance.Font = new System.Drawing.Font("나눔바른고딕", 11.25F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(129)));
+            this.labelControl6.Appearance.Font = new System.Drawing.Font("NanumBarunGothic", 11.25F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(129)));
             this.labelControl6.Appearance.ForeColor = System.Drawing.Color.FromArgb(((int)(((byte)(80)))), ((int)(((byte)(80)))), ((int)(((byte)(80)))));
             this.labelControl6.Appearance.Options.UseFont = true;
             this.labelControl6.Appearance.Options.UseForeColor = true;
-            this.labelControl6.Location = new System.Drawing.Point(24, 136);
+            this.labelControl6.Location = new System.Drawing.Point(18, 118);
+            this.labelControl6.Margin = new System.Windows.Forms.Padding(2, 3, 2, 3);
             this.labelControl6.Name = "labelControl6";
             this.labelControl6.Size = new System.Drawing.Size(39, 17);
             this.labelControl6.TabIndex = 54;
@@ -704,22 +753,24 @@
             // txt_Item_Code
             // 
             this.txt_Item_Code.Enabled = false;
-            this.txt_Item_Code.Location = new System.Drawing.Point(126, 103);
+            this.txt_Item_Code.Location = new System.Drawing.Point(94, 89);
+            this.txt_Item_Code.Margin = new System.Windows.Forms.Padding(2, 3, 2, 3);
             this.txt_Item_Code.Name = "txt_Item_Code";
             this.txt_Item_Code.Properties.Appearance.BackColor = System.Drawing.Color.LightGray;
-            this.txt_Item_Code.Properties.Appearance.Font = new System.Drawing.Font("나눔바른고딕", 11F);
+            this.txt_Item_Code.Properties.Appearance.Font = new System.Drawing.Font("NanumBarunGothic", 11F);
             this.txt_Item_Code.Properties.Appearance.Options.UseBackColor = true;
             this.txt_Item_Code.Properties.Appearance.Options.UseFont = true;
-            this.txt_Item_Code.Size = new System.Drawing.Size(286, 24);
+            this.txt_Item_Code.Size = new System.Drawing.Size(214, 24);
             this.txt_Item_Code.TabIndex = 53;
             // 
             // labelControl22
             // 
-            this.labelControl22.Appearance.Font = new System.Drawing.Font("나눔바른고딕", 11.25F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(129)));
+            this.labelControl22.Appearance.Font = new System.Drawing.Font("NanumBarunGothic", 11.25F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(129)));
             this.labelControl22.Appearance.ForeColor = System.Drawing.Color.FromArgb(((int)(((byte)(80)))), ((int)(((byte)(80)))), ((int)(((byte)(80)))));
             this.labelControl22.Appearance.Options.UseFont = true;
             this.labelControl22.Appearance.Options.UseForeColor = true;
-            this.labelControl22.Location = new System.Drawing.Point(24, 106);
+            this.labelControl22.Location = new System.Drawing.Point(18, 92);
+            this.labelControl22.Margin = new System.Windows.Forms.Padding(2, 3, 2, 3);
             this.labelControl22.Name = "labelControl22";
             this.labelControl22.Size = new System.Drawing.Size(52, 17);
             this.labelControl22.TabIndex = 52;
@@ -728,27 +779,29 @@
             // txt_WorkSheet
             // 
             this.txt_WorkSheet.EditValue = "";
-            this.txt_WorkSheet.Location = new System.Drawing.Point(126, 73);
+            this.txt_WorkSheet.Location = new System.Drawing.Point(94, 63);
+            this.txt_WorkSheet.Margin = new System.Windows.Forms.Padding(2, 3, 2, 3);
             this.txt_WorkSheet.Name = "txt_WorkSheet";
             this.txt_WorkSheet.Properties.Appearance.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(252)))), ((int)(((byte)(247)))), ((int)(((byte)(182)))));
-            this.txt_WorkSheet.Properties.Appearance.Font = new System.Drawing.Font("나눔바른고딕", 11F);
+            this.txt_WorkSheet.Properties.Appearance.Font = new System.Drawing.Font("NanumBarunGothic", 11F);
             this.txt_WorkSheet.Properties.Appearance.Options.UseBackColor = true;
             this.txt_WorkSheet.Properties.Appearance.Options.UseFont = true;
             this.txt_WorkSheet.Properties.Buttons.AddRange(new DevExpress.XtraEditors.Controls.EditorButton[] {
             new DevExpress.XtraEditors.Controls.EditorButton(DevExpress.XtraEditors.Controls.ButtonPredefines.Search)});
             this.txt_WorkSheet.Properties.ButtonClick += new DevExpress.XtraEditors.Controls.ButtonPressedEventHandler(this.txt_WorkSheet_Properties_ButtonClick);
-            this.txt_WorkSheet.Size = new System.Drawing.Size(286, 24);
+            this.txt_WorkSheet.Size = new System.Drawing.Size(214, 24);
             this.txt_WorkSheet.TabIndex = 3;
             this.txt_WorkSheet.EditValueChanged += new System.EventHandler(this.txt_WorkSheet_EditValueChanged);
             this.txt_WorkSheet.KeyPress += new System.Windows.Forms.KeyPressEventHandler(this.txt_WorkSheet_KeyPress);
             // 
             // labelControl11
             // 
-            this.labelControl11.Appearance.Font = new System.Drawing.Font("나눔바른고딕", 11.25F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(129)));
+            this.labelControl11.Appearance.Font = new System.Drawing.Font("NanumBarunGothic", 11.25F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(129)));
             this.labelControl11.Appearance.ForeColor = System.Drawing.Color.FromArgb(((int)(((byte)(44)))), ((int)(((byte)(85)))), ((int)(((byte)(152)))));
             this.labelControl11.Appearance.Options.UseFont = true;
             this.labelControl11.Appearance.Options.UseForeColor = true;
-            this.labelControl11.Location = new System.Drawing.Point(24, 77);
+            this.labelControl11.Location = new System.Drawing.Point(18, 67);
+            this.labelControl11.Margin = new System.Windows.Forms.Padding(2, 3, 2, 3);
             this.labelControl11.Name = "labelControl11";
             this.labelControl11.Size = new System.Drawing.Size(68, 17);
             this.labelControl11.TabIndex = 8;
@@ -757,24 +810,26 @@
             // dt_ResultDate
             // 
             this.dt_ResultDate.EditValue = null;
-            this.dt_ResultDate.Location = new System.Drawing.Point(125, 12);
+            this.dt_ResultDate.Location = new System.Drawing.Point(94, 10);
+            this.dt_ResultDate.Margin = new System.Windows.Forms.Padding(2, 3, 2, 3);
             this.dt_ResultDate.Name = "dt_ResultDate";
-            this.dt_ResultDate.Properties.Appearance.Font = new System.Drawing.Font("나눔바른고딕", 11.25F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(129)));
+            this.dt_ResultDate.Properties.Appearance.Font = new System.Drawing.Font("NanumBarunGothic", 11.25F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(129)));
             this.dt_ResultDate.Properties.Appearance.Options.UseFont = true;
             this.dt_ResultDate.Properties.Buttons.AddRange(new DevExpress.XtraEditors.Controls.EditorButton[] {
             new DevExpress.XtraEditors.Controls.EditorButton(DevExpress.XtraEditors.Controls.ButtonPredefines.Combo)});
             this.dt_ResultDate.Properties.CalendarTimeProperties.Buttons.AddRange(new DevExpress.XtraEditors.Controls.EditorButton[] {
             new DevExpress.XtraEditors.Controls.EditorButton(DevExpress.XtraEditors.Controls.ButtonPredefines.Combo)});
-            this.dt_ResultDate.Size = new System.Drawing.Size(138, 24);
+            this.dt_ResultDate.Size = new System.Drawing.Size(104, 24);
             this.dt_ResultDate.TabIndex = 1;
             // 
             // labelControl9
             // 
-            this.labelControl9.Appearance.Font = new System.Drawing.Font("나눔바른고딕", 11.25F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(129)));
+            this.labelControl9.Appearance.Font = new System.Drawing.Font("NanumBarunGothic", 11.25F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(129)));
             this.labelControl9.Appearance.ForeColor = System.Drawing.Color.FromArgb(((int)(((byte)(44)))), ((int)(((byte)(85)))), ((int)(((byte)(152)))));
             this.labelControl9.Appearance.Options.UseFont = true;
             this.labelControl9.Appearance.Options.UseForeColor = true;
-            this.labelControl9.Location = new System.Drawing.Point(23, 16);
+            this.labelControl9.Location = new System.Drawing.Point(17, 14);
+            this.labelControl9.Margin = new System.Windows.Forms.Padding(2, 3, 2, 3);
             this.labelControl9.Name = "labelControl9";
             this.labelControl9.Size = new System.Drawing.Size(68, 17);
             this.labelControl9.TabIndex = 2;
@@ -783,10 +838,11 @@
             // xtraTabControl1
             // 
             this.xtraTabControl1.Dock = System.Windows.Forms.DockStyle.Fill;
-            this.xtraTabControl1.Location = new System.Drawing.Point(0, 303);
+            this.xtraTabControl1.Location = new System.Drawing.Point(0, 284);
+            this.xtraTabControl1.Margin = new System.Windows.Forms.Padding(2, 3, 2, 3);
             this.xtraTabControl1.Name = "xtraTabControl1";
             this.xtraTabControl1.SelectedTabPage = this.xtraTabPage3;
-            this.xtraTabControl1.Size = new System.Drawing.Size(1119, 400);
+            this.xtraTabControl1.Size = new System.Drawing.Size(839, 325);
             this.xtraTabControl1.TabIndex = 15;
             this.xtraTabControl1.TabPages.AddRange(new DevExpress.XtraTab.XtraTabPage[] {
             this.xtraTabPage3});
@@ -794,8 +850,9 @@
             // xtraTabPage3
             // 
             this.xtraTabPage3.Controls.Add(this.gc_User);
+            this.xtraTabPage3.Margin = new System.Windows.Forms.Padding(2, 3, 2, 3);
             this.xtraTabPage3.Name = "xtraTabPage3";
-            this.xtraTabPage3.Size = new System.Drawing.Size(1117, 369);
+            this.xtraTabPage3.Size = new System.Drawing.Size(837, 304);
             this.xtraTabPage3.Text = "작업자";
             // 
             // gc_User
@@ -803,17 +860,19 @@
             this.gc_User.AddRowYN = false;
             this.gc_User.CellFocus = true;
             this.gc_User.Dock = System.Windows.Forms.DockStyle.Fill;
+            this.gc_User.EmbeddedNavigator.Margin = new System.Windows.Forms.Padding(2, 3, 2, 3);
             this.gc_User.EnterYN = true;
             this.gc_User.Execl_GB = MES.GridControlEx.Excel_GB.Append;
             this.gc_User.ExpansionCHK = false;
             this.gc_User.Head_DoubleChk = true;
             this.gc_User.Location = new System.Drawing.Point(0, 0);
             this.gc_User.MainView = this.gv_User;
+            this.gc_User.Margin = new System.Windows.Forms.Padding(2, 3, 2, 3);
             this.gc_User.MouseWheelChk = true;
             this.gc_User.MultiSelectChk = true;
             this.gc_User.Name = "gc_User";
             this.gc_User.PopMenuChk = true;
-            this.gc_User.Size = new System.Drawing.Size(1117, 369);
+            this.gc_User.Size = new System.Drawing.Size(837, 304);
             this.gc_User.TabIndex = 15;
             this.gc_User.ViewCollection.AddRange(new DevExpress.XtraGrid.Views.Base.BaseView[] {
             this.gv_User});
@@ -823,6 +882,7 @@
             // 
             this.gv_User.Appearance.FocusedRow.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(35)))), ((int)(((byte)(0)))), ((int)(((byte)(191)))), ((int)(((byte)(255)))));
             this.gv_User.Appearance.FocusedRow.Options.UseBackColor = true;
+            this.gv_User.DetailHeight = 303;
             this.gv_User.GridControl = this.gc_User;
             this.gv_User.Name = "gv_User";
             this.gv_User.OptionsClipboard.PasteMode = DevExpress.Export.PasteMode.Append;
@@ -832,7 +892,7 @@
             // 
             // regCheckin
             // 
-            this.AutoScaleDimensions = new System.Drawing.SizeF(8F, 15F);
+            this.AutoScaleDimensions = new System.Drawing.SizeF(6F, 13F);
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
             this.Controls.Add(this.xtraTabControl1);
             this.Controls.Add(this.panel_M);

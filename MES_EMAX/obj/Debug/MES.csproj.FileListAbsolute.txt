@@ -1362,3 +1362,4 @@ D:\Setup\ERP\EmaxMES\MES_EMAX\obj\Debug\MES.csproj.Up2Date
 D:\Setup\ERP\EmaxMES\MES_EMAX\obj\Debug\MES.exe
 D:\Setup\ERP\EmaxMES\MES_EMAX\obj\Debug\MES.pdb
 D:\Setup\ERP\EmaxMES\MES_EMAX\obj\Debug\MES.regCheckin.resources
+C:\Users\Coasia_MI\Desktop\MES\Coasia\EmaxMES\MES_EMAX\obj\Debug\MES.regCheckin.resources
