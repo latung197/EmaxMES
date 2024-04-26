@@ -4,7 +4,7 @@
     <EnableSecurityDebugging>false</EnableSecurityDebugging>
     <ProjectView>ProjectFiles</ProjectView>
     <PublishUrlHistory>publish\</PublishUrlHistory>
-    <InstallUrlHistory />
+    <InstallUrlHistory>http://10.100.0.232:5580/</InstallUrlHistory>
     <SupportUrlHistory>http://10.100.0.232:5580/|http://10.100.0.232:5580</SupportUrlHistory>
     <UpdateUrlHistory>http://10.100.0.232:5580/</UpdateUrlHistory>
     <BootstrapperUrlHistory />
