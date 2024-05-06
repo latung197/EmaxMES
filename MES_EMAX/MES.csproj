@@ -277,17 +277,17 @@
     <Compile Include="Menu\BasicMenu\regBOM.Designer.cs">
       <DependentUpon>regBOM.cs</DependentUpon>
     </Compile>
+    <Compile Include="Menu\BasicMenu\regCompany.cs">
+      <SubType>UserControl</SubType>
+    </Compile>
+    <Compile Include="Menu\BasicMenu\regCompany.designer.cs">
+      <DependentUpon>regCompany.cs</DependentUpon>
+    </Compile>
     <Compile Include="Menu\BasicMenu\regdmdvt.cs">
       <SubType>UserControl</SubType>
     </Compile>
     <Compile Include="Menu\BasicMenu\regdmdvt.Designer.cs">
       <DependentUpon>regdmdvt.cs</DependentUpon>
-    </Compile>
-    <Compile Include="Menu\BasicMenu\regCompany.cs">
-      <SubType>UserControl</SubType>
-    </Compile>
-    <Compile Include="Menu\BasicMenu\regCompany.Designer.cs">
-      <DependentUpon>regCompany.cs</DependentUpon>
     </Compile>
     <Compile Include="Menu\BasicMenu\regCustome.cs">
       <SubType>UserControl</SubType>
@@ -599,11 +599,11 @@
     <EmbeddedResource Include="Menu\BasicMenu\regBOM.resx">
       <DependentUpon>regBOM.cs</DependentUpon>
     </EmbeddedResource>
-    <EmbeddedResource Include="Menu\BasicMenu\regdmdvt.resx">
-      <DependentUpon>regdmdvt.cs</DependentUpon>
-    </EmbeddedResource>
     <EmbeddedResource Include="Menu\BasicMenu\regCompany.resx">
       <DependentUpon>regCompany.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Menu\BasicMenu\regdmdvt.resx">
+      <DependentUpon>regdmdvt.cs</DependentUpon>
     </EmbeddedResource>
     <EmbeddedResource Include="Menu\BasicMenu\regCustome.resx">
       <DependentUpon>regCustome.cs</DependentUpon>

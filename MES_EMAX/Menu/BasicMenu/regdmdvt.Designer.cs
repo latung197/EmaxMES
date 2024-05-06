@@ -108,7 +108,8 @@
             // 
             // panButton
             // 
-            this.panButton.Location = new System.Drawing.Point(791, 2);
+            this.panButton.Location = new System.Drawing.Point(681, 2);
+            this.panButton.Size = new System.Drawing.Size(525, 189);
             // 
             // Grid_dmdvt
             // 
@@ -151,7 +152,7 @@
             this.AutoScaleDimensions = new System.Drawing.SizeF(6F, 13F);
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
             this.Controls.Add(this.Grid_dmdvt);
-            this.Margin = new System.Windows.Forms.Padding(2, 2, 2, 2);
+            this.Margin = new System.Windows.Forms.Padding(2);
             this.Name = "regdmdvt";
             this.Size = new System.Drawing.Size(1208, 914);
             this.Load += new System.EventHandler(this.regdmdvt_Load);

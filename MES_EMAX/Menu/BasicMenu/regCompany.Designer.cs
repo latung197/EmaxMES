@@ -46,7 +46,9 @@
             this.btn_Save.Appearance.Options.UseBackColor = true;
             this.btn_Save.Appearance.Options.UseBorderColor = true;
             this.btn_Save.ImageOptions.SvgImage = ((DevExpress.Utils.Svg.SvgImage)(resources.GetObject("btn_Save.ImageOptions.SvgImage")));
-            this.btn_Save.Text = "Lưu";
+            this.btn_Save.Location = new System.Drawing.Point(158, 1);
+            this.btn_Save.Margin = new System.Windows.Forms.Padding(2, 4, 2, 4);
+            this.btn_Save.Size = new System.Drawing.Size(74, 32);
             // 
             // btn_Close
             // 
@@ -56,7 +58,9 @@
             this.btn_Close.Appearance.Options.UseBorderColor = true;
             this.btn_Close.ImageOptions.Image = ((System.Drawing.Image)(resources.GetObject("btn_Close.ImageOptions.Image")));
             this.btn_Close.ImageOptions.SvgImage = ((DevExpress.Utils.Svg.SvgImage)(resources.GetObject("btn_Close.ImageOptions.SvgImage")));
-            this.btn_Close.Text = "Thoát";
+            this.btn_Close.Location = new System.Drawing.Point(469, 1);
+            this.btn_Close.Margin = new System.Windows.Forms.Padding(2, 4, 2, 4);
+            this.btn_Close.Size = new System.Drawing.Size(74, 32);
             this.btn_Close.Click += new System.EventHandler(this.btn_Close_Click);
             // 
             // btn_Excel
@@ -67,7 +71,9 @@
             this.btn_Excel.Appearance.Options.UseBorderColor = true;
             this.btn_Excel.ImageOptions.Image = ((System.Drawing.Image)(resources.GetObject("btn_Excel.ImageOptions.Image")));
             this.btn_Excel.ImageOptions.SvgImage = ((DevExpress.Utils.Svg.SvgImage)(resources.GetObject("btn_Excel.ImageOptions.SvgImage")));
-            this.btn_Excel.Text = "Excel";
+            this.btn_Excel.Location = new System.Drawing.Point(321, 1);
+            this.btn_Excel.Margin = new System.Windows.Forms.Padding(2, 4, 2, 4);
+            this.btn_Excel.Size = new System.Drawing.Size(74, 32);
             this.btn_Excel.Click += new System.EventHandler(this.btn_Excel_Click);
             // 
             // btn_Insert
@@ -77,7 +83,9 @@
             this.btn_Insert.Appearance.Options.UseBackColor = true;
             this.btn_Insert.Appearance.Options.UseBorderColor = true;
             this.btn_Insert.ImageOptions.SvgImage = ((DevExpress.Utils.Svg.SvgImage)(resources.GetObject("btn_Insert.ImageOptions.SvgImage")));
-            this.btn_Insert.Text = "Thêm mới";
+            this.btn_Insert.Location = new System.Drawing.Point(80, 1);
+            this.btn_Insert.Margin = new System.Windows.Forms.Padding(2, 4, 2, 4);
+            this.btn_Insert.Size = new System.Drawing.Size(74, 32);
             this.btn_Insert.Click += new System.EventHandler(this.btn_Insert_Click);
             // 
             // btn_Delete
@@ -87,7 +95,9 @@
             this.btn_Delete.Appearance.Options.UseBackColor = true;
             this.btn_Delete.Appearance.Options.UseBorderColor = true;
             this.btn_Delete.ImageOptions.SvgImage = ((DevExpress.Utils.Svg.SvgImage)(resources.GetObject("btn_Delete.ImageOptions.SvgImage")));
-            this.btn_Delete.Text = "Xóa";
+            this.btn_Delete.Location = new System.Drawing.Point(236, 1);
+            this.btn_Delete.Margin = new System.Windows.Forms.Padding(2, 4, 2, 4);
+            this.btn_Delete.Size = new System.Drawing.Size(74, 32);
             this.btn_Delete.Click += new System.EventHandler(this.btn_Delete_Click);
             // 
             // btn_Select
@@ -97,7 +107,9 @@
             this.btn_Select.Appearance.Options.UseBackColor = true;
             this.btn_Select.Appearance.Options.UseBorderColor = true;
             this.btn_Select.ImageOptions.SvgImage = ((DevExpress.Utils.Svg.SvgImage)(resources.GetObject("btn_Select.ImageOptions.SvgImage")));
-            this.btn_Select.Text = "Tìm kiếm";
+            this.btn_Select.Location = new System.Drawing.Point(2, 1);
+            this.btn_Select.Margin = new System.Windows.Forms.Padding(2, 4, 2, 4);
+            this.btn_Select.Size = new System.Drawing.Size(74, 32);
             this.btn_Select.Click += new System.EventHandler(this.btn_Select_Click);
             // 
             // btn_Print
@@ -107,34 +119,39 @@
             this.btn_Print.Appearance.Options.UseBackColor = true;
             this.btn_Print.Appearance.Options.UseBorderColor = true;
             this.btn_Print.ImageOptions.SvgImage = ((DevExpress.Utils.Svg.SvgImage)(resources.GetObject("btn_Print.ImageOptions.SvgImage")));
-            this.btn_Print.Text = "In";
+            this.btn_Print.Location = new System.Drawing.Point(395, 1);
+            this.btn_Print.Margin = new System.Windows.Forms.Padding(2, 4, 2, 4);
+            this.btn_Print.Size = new System.Drawing.Size(74, 32);
             // 
             // panReg
             // 
-            this.panReg.Size = new System.Drawing.Size(1208, 35);
+            this.panReg.Margin = new System.Windows.Forms.Padding(2, 5, 2, 5);
+            this.panReg.Size = new System.Drawing.Size(1208, 34);
             // 
             // panButton
             // 
-            this.panButton.Location = new System.Drawing.Point(791, 2);
+            this.panButton.Location = new System.Drawing.Point(775, 2);
+            this.panButton.Margin = new System.Windows.Forms.Padding(2, 5, 2, 5);
+            this.panButton.Size = new System.Drawing.Size(431, 72);
             // 
             // Grid_Company
             // 
             this.Grid_Company.AddRowYN = false;
             this.Grid_Company.CellFocus = true;
             this.Grid_Company.Dock = System.Windows.Forms.DockStyle.Fill;
-            this.Grid_Company.EmbeddedNavigator.Margin = new System.Windows.Forms.Padding(2, 3, 2, 3);
+            this.Grid_Company.EmbeddedNavigator.Margin = new System.Windows.Forms.Padding(2, 4, 2, 4);
             this.Grid_Company.EnterYN = true;
             this.Grid_Company.Execl_GB = MES.GridControlEx.Excel_GB.Append;
             this.Grid_Company.ExpansionCHK = false;
             this.Grid_Company.Head_DoubleChk = true;
-            this.Grid_Company.Location = new System.Drawing.Point(0, 0);
+            this.Grid_Company.Location = new System.Drawing.Point(0, 34);
             this.Grid_Company.MainView = this.View_Company;
-            this.Grid_Company.Margin = new System.Windows.Forms.Padding(2, 3, 2, 3);
+            this.Grid_Company.Margin = new System.Windows.Forms.Padding(2, 4, 2, 4);
             this.Grid_Company.MouseWheelChk = true;
             this.Grid_Company.MultiSelectChk = true;
             this.Grid_Company.Name = "Grid_Company";
             this.Grid_Company.PopMenuChk = true;
-            this.Grid_Company.Size = new System.Drawing.Size(1208, 914);
+            this.Grid_Company.Size = new System.Drawing.Size(1208, 881);
             this.Grid_Company.TabIndex = 1;
             this.Grid_Company.ViewCollection.AddRange(new DevExpress.XtraGrid.Views.Base.BaseView[] {
             this.View_Company});
@@ -143,11 +160,11 @@
             // 
             this.View_Company.Appearance.FocusedRow.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(35)))), ((int)(((byte)(0)))), ((int)(((byte)(191)))), ((int)(((byte)(255)))));
             this.View_Company.Appearance.FocusedRow.Options.UseBackColor = true;
-            this.View_Company.DetailHeight = 303;
+            this.View_Company.DetailHeight = 304;
             this.View_Company.GridControl = this.Grid_Company;
             this.View_Company.Name = "View_Company";
             this.View_Company.OptionsClipboard.PasteMode = DevExpress.Export.PasteMode.Append;
-            this.View_Company.OptionsEditForm.PopupEditFormWidth = 600;
+            this.View_Company.OptionsEditForm.PopupEditFormWidth = 700;
             this.View_Company.OptionsSelection.MultiSelect = true;
             this.View_Company.OptionsView.ShowAutoFilterRow = true;
             this.View_Company.OptionsView.ShowGroupPanel = false;
@@ -158,12 +175,12 @@
             this.AutoScaleDimensions = new System.Drawing.SizeF(6F, 13F);
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
             this.Controls.Add(this.Grid_Company);
-            this.Margin = new System.Windows.Forms.Padding(2);
+            this.Margin = new System.Windows.Forms.Padding(2, 2, 2, 2);
             this.Name = "regCompany";
-            this.Size = new System.Drawing.Size(1208, 914);
+            this.Size = new System.Drawing.Size(1208, 915);
             this.Load += new System.EventHandler(this.regCompany_Load);
-            this.Controls.SetChildIndex(this.Grid_Company, 0);
             this.Controls.SetChildIndex(this.panReg, 0);
+            this.Controls.SetChildIndex(this.Grid_Company, 0);
             ((System.ComponentModel.ISupportInitialize)(this.panReg)).EndInit();
             this.panReg.ResumeLayout(false);
             ((System.ComponentModel.ISupportInitialize)(this.panButton)).EndInit();

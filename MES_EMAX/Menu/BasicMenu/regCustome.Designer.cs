@@ -108,7 +108,7 @@
             // 
             // panButton
             // 
-            this.panButton.Location = new System.Drawing.Point(408, 2);
+            this.panButton.Location = new System.Drawing.Point(298, 2);
             // 
             // gc_Cust
             // 
@@ -155,7 +155,7 @@
             this.AutoScaleDimensions = new System.Drawing.SizeF(6F, 13F);
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
             this.Controls.Add(this.gc_Cust);
-            this.Margin = new System.Windows.Forms.Padding(2, 2, 2, 2);
+            this.Margin = new System.Windows.Forms.Padding(2);
             this.Name = "regCustome";
             this.Size = new System.Drawing.Size(825, 737);
             this.Load += new System.EventHandler(this.regCustome_Load);

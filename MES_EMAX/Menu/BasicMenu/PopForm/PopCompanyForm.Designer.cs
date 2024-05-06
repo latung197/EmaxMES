@@ -158,7 +158,7 @@
             this.btn_Delete.Appearance.Options.UseBorderColor = true;
             this.btn_Delete.button_GB = MES.SimpleButtonEx.Button_GB.Delete;
             this.btn_Delete.ImageOptions.SvgImage = ((DevExpress.Utils.Svg.SvgImage)(resources.GetObject("btn_Delete.ImageOptions.SvgImage")));
-            this.btn_Delete.Location = new System.Drawing.Point(80, 3);
+            this.btn_Delete.Location = new System.Drawing.Point(76, 4);
             this.btn_Delete.Margin = new System.Windows.Forms.Padding(2);
             this.btn_Delete.Name = "btn_Delete";
             this.btn_Delete.Result_Update = System.Windows.Forms.DialogResult.None;
@@ -178,7 +178,7 @@
             this.btn_Save.Appearance.Options.UseBorderColor = true;
             this.btn_Save.button_GB = MES.SimpleButtonEx.Button_GB.Save;
             this.btn_Save.ImageOptions.SvgImage = ((DevExpress.Utils.Svg.SvgImage)(resources.GetObject("btn_Save.ImageOptions.SvgImage")));
-            this.btn_Save.Location = new System.Drawing.Point(154, 3);
+            this.btn_Save.Location = new System.Drawing.Point(150, 4);
             this.btn_Save.Margin = new System.Windows.Forms.Padding(2);
             this.btn_Save.Name = "btn_Save";
             this.btn_Save.Result_Update = System.Windows.Forms.DialogResult.None;
@@ -199,7 +199,7 @@
             this.btn_Close.button_GB = MES.SimpleButtonEx.Button_GB.Exit;
             this.btn_Close.ImageOptions.Image = ((System.Drawing.Image)(resources.GetObject("btn_Close.ImageOptions.Image")));
             this.btn_Close.ImageOptions.SvgImage = ((DevExpress.Utils.Svg.SvgImage)(resources.GetObject("btn_Close.ImageOptions.SvgImage")));
-            this.btn_Close.Location = new System.Drawing.Point(228, 4);
+            this.btn_Close.Location = new System.Drawing.Point(224, 4);
             this.btn_Close.Margin = new System.Windows.Forms.Padding(2);
             this.btn_Close.Name = "btn_Close";
             this.btn_Close.Result_Update = System.Windows.Forms.DialogResult.None;
@@ -219,7 +219,7 @@
             this.btn_Insert.Appearance.Options.UseBorderColor = true;
             this.btn_Insert.button_GB = MES.SimpleButtonEx.Button_GB.Add;
             this.btn_Insert.ImageOptions.SvgImage = ((DevExpress.Utils.Svg.SvgImage)(resources.GetObject("btn_Insert.ImageOptions.SvgImage")));
-            this.btn_Insert.Location = new System.Drawing.Point(6, 4);
+            this.btn_Insert.Location = new System.Drawing.Point(2, 4);
             this.btn_Insert.Margin = new System.Windows.Forms.Padding(2);
             this.btn_Insert.Name = "btn_Insert";
             this.btn_Insert.Result_Update = System.Windows.Forms.DialogResult.None;
