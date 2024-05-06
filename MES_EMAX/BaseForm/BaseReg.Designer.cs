@@ -51,7 +51,7 @@
             this.panReg.Location = new System.Drawing.Point(0, 0);
             this.panReg.Margin = new System.Windows.Forms.Padding(2, 3, 2, 3);
             this.panReg.Name = "panReg";
-            this.panReg.Size = new System.Drawing.Size(839, 35);
+            this.panReg.Size = new System.Drawing.Size(850, 35);
             this.panReg.TabIndex = 0;
             // 
             // panButton
@@ -65,10 +65,10 @@
             this.panButton.Controls.Add(this.btn_Insert);
             this.panButton.Controls.Add(this.btn_Delete);
             this.panButton.Dock = System.Windows.Forms.DockStyle.Right;
-            this.panButton.Location = new System.Drawing.Point(422, 2);
+            this.panButton.Location = new System.Drawing.Point(323, 2);
             this.panButton.Margin = new System.Windows.Forms.Padding(2, 3, 2, 3);
             this.panButton.Name = "panButton";
-            this.panButton.Size = new System.Drawing.Size(415, 31);
+            this.panButton.Size = new System.Drawing.Size(525, 31);
             this.panButton.TabIndex = 21;
             // 
             // btn_Print
@@ -80,17 +80,17 @@
             this.btn_Print.Appearance.Options.UseBorderColor = true;
             this.btn_Print.button_GB = MES.SimpleButtonEx.Button_GB.Print;
             this.btn_Print.ImageOptions.SvgImage = ((DevExpress.Utils.Svg.SvgImage)(resources.GetObject("btn_Print.ImageOptions.SvgImage")));
-            this.btn_Print.Location = new System.Drawing.Point(298, 1);
+            this.btn_Print.Location = new System.Drawing.Point(379, 1);
             this.btn_Print.Margin = new System.Windows.Forms.Padding(2);
             this.btn_Print.Name = "btn_Print";
             this.btn_Print.Result_Update = System.Windows.Forms.DialogResult.None;
             this.btn_Print.sCHK = "N";
-            this.btn_Print.Size = new System.Drawing.Size(74, 34);
+            this.btn_Print.Size = new System.Drawing.Size(70, 30);
             this.btn_Print.sSearch = "Y";
             this.btn_Print.sUpdate = "N";
             this.btn_Print.TabIndex = 53;
             this.btn_Print.TabStop = false;
-            this.btn_Print.Text = "출력";
+            this.btn_Print.Text = "In";
             // 
             // btn_Save
             // 
@@ -101,16 +101,16 @@
             this.btn_Save.Appearance.Options.UseBorderColor = true;
             this.btn_Save.button_GB = MES.SimpleButtonEx.Button_GB.Save;
             this.btn_Save.ImageOptions.SvgImage = ((DevExpress.Utils.Svg.SvgImage)(resources.GetObject("btn_Save.ImageOptions.SvgImage")));
-            this.btn_Save.Location = new System.Drawing.Point(123, 1);
+            this.btn_Save.Location = new System.Drawing.Point(157, 1);
             this.btn_Save.Margin = new System.Windows.Forms.Padding(2);
             this.btn_Save.Name = "btn_Save";
             this.btn_Save.Result_Update = System.Windows.Forms.DialogResult.None;
             this.btn_Save.sCHK = "N";
-            this.btn_Save.Size = new System.Drawing.Size(74, 34);
+            this.btn_Save.Size = new System.Drawing.Size(70, 30);
             this.btn_Save.sSearch = "Y";
             this.btn_Save.sUpdate = "N";
             this.btn_Save.TabIndex = 24;
-            this.btn_Save.Text = "저장";
+            this.btn_Save.Text = "Lưu";
             // 
             // btn_Close
             // 
@@ -122,16 +122,16 @@
             this.btn_Close.button_GB = MES.SimpleButtonEx.Button_GB.Exit;
             this.btn_Close.ImageOptions.Image = global::MES.Properties.Resources.cancel_32x32;
             this.btn_Close.ImageOptions.SvgImage = ((DevExpress.Utils.Svg.SvgImage)(resources.GetObject("btn_Close.ImageOptions.SvgImage")));
-            this.btn_Close.Location = new System.Drawing.Point(357, 1);
+            this.btn_Close.Location = new System.Drawing.Point(453, 1);
             this.btn_Close.Margin = new System.Windows.Forms.Padding(2);
             this.btn_Close.Name = "btn_Close";
             this.btn_Close.Result_Update = System.Windows.Forms.DialogResult.None;
             this.btn_Close.sCHK = "N";
-            this.btn_Close.Size = new System.Drawing.Size(74, 34);
+            this.btn_Close.Size = new System.Drawing.Size(70, 30);
             this.btn_Close.sSearch = "Y";
             this.btn_Close.sUpdate = "N";
             this.btn_Close.TabIndex = 26;
-            this.btn_Close.Text = "닫기";
+            this.btn_Close.Text = "Thoát";
             // 
             // btn_Excel
             // 
@@ -143,16 +143,16 @@
             this.btn_Excel.button_GB = MES.SimpleButtonEx.Button_GB.Excel;
             this.btn_Excel.ImageOptions.Image = ((System.Drawing.Image)(resources.GetObject("btn_Excel.ImageOptions.Image")));
             this.btn_Excel.ImageOptions.SvgImage = ((DevExpress.Utils.Svg.SvgImage)(resources.GetObject("btn_Excel.ImageOptions.SvgImage")));
-            this.btn_Excel.Location = new System.Drawing.Point(240, 1);
+            this.btn_Excel.Location = new System.Drawing.Point(305, 1);
             this.btn_Excel.Margin = new System.Windows.Forms.Padding(2);
             this.btn_Excel.Name = "btn_Excel";
             this.btn_Excel.Result_Update = System.Windows.Forms.DialogResult.None;
             this.btn_Excel.sCHK = "N";
-            this.btn_Excel.Size = new System.Drawing.Size(74, 34);
+            this.btn_Excel.Size = new System.Drawing.Size(70, 30);
             this.btn_Excel.sSearch = "Y";
             this.btn_Excel.sUpdate = "N";
             this.btn_Excel.TabIndex = 25;
-            this.btn_Excel.Text = "엑셀";
+            this.btn_Excel.Text = "Excel";
             // 
             // btn_Select
             // 
@@ -163,16 +163,17 @@
             this.btn_Select.Appearance.Options.UseBorderColor = true;
             this.btn_Select.button_GB = MES.SimpleButtonEx.Button_GB.Search;
             this.btn_Select.ImageOptions.SvgImage = ((DevExpress.Utils.Svg.SvgImage)(resources.GetObject("btn_Select.ImageOptions.SvgImage")));
-            this.btn_Select.Location = new System.Drawing.Point(4, 1);
+            this.btn_Select.Location = new System.Drawing.Point(9, 1);
             this.btn_Select.Margin = new System.Windows.Forms.Padding(2);
             this.btn_Select.Name = "btn_Select";
             this.btn_Select.Result_Update = System.Windows.Forms.DialogResult.None;
             this.btn_Select.sCHK = "N";
-            this.btn_Select.Size = new System.Drawing.Size(74, 34);
+            this.btn_Select.Size = new System.Drawing.Size(70, 30);
             this.btn_Select.sSearch = "Y";
             this.btn_Select.sUpdate = "N";
             this.btn_Select.TabIndex = 21;
-            this.btn_Select.Text = "조회";
+            this.btn_Select.Text = "Tìm";
+            this.btn_Select.Click += new System.EventHandler(this.btn_Select_Click);
             // 
             // btn_Insert
             // 
@@ -183,16 +184,16 @@
             this.btn_Insert.Appearance.Options.UseBorderColor = true;
             this.btn_Insert.button_GB = MES.SimpleButtonEx.Button_GB.Add;
             this.btn_Insert.ImageOptions.SvgImage = ((DevExpress.Utils.Svg.SvgImage)(resources.GetObject("btn_Insert.ImageOptions.SvgImage")));
-            this.btn_Insert.Location = new System.Drawing.Point(64, 1);
+            this.btn_Insert.Location = new System.Drawing.Point(83, 1);
             this.btn_Insert.Margin = new System.Windows.Forms.Padding(2);
             this.btn_Insert.Name = "btn_Insert";
             this.btn_Insert.Result_Update = System.Windows.Forms.DialogResult.None;
             this.btn_Insert.sCHK = "N";
-            this.btn_Insert.Size = new System.Drawing.Size(74, 34);
+            this.btn_Insert.Size = new System.Drawing.Size(70, 30);
             this.btn_Insert.sSearch = "Y";
             this.btn_Insert.sUpdate = "N";
             this.btn_Insert.TabIndex = 22;
-            this.btn_Insert.Text = "추가";
+            this.btn_Insert.Text = "Thêm";
             // 
             // btn_Delete
             // 
@@ -203,16 +204,16 @@
             this.btn_Delete.Appearance.Options.UseBorderColor = true;
             this.btn_Delete.button_GB = MES.SimpleButtonEx.Button_GB.Delete;
             this.btn_Delete.ImageOptions.SvgImage = ((DevExpress.Utils.Svg.SvgImage)(resources.GetObject("btn_Delete.ImageOptions.SvgImage")));
-            this.btn_Delete.Location = new System.Drawing.Point(182, 1);
+            this.btn_Delete.Location = new System.Drawing.Point(231, 1);
             this.btn_Delete.Margin = new System.Windows.Forms.Padding(2);
             this.btn_Delete.Name = "btn_Delete";
             this.btn_Delete.Result_Update = System.Windows.Forms.DialogResult.None;
             this.btn_Delete.sCHK = "N";
-            this.btn_Delete.Size = new System.Drawing.Size(74, 34);
+            this.btn_Delete.Size = new System.Drawing.Size(70, 30);
             this.btn_Delete.sSearch = "Y";
             this.btn_Delete.sUpdate = "N";
             this.btn_Delete.TabIndex = 23;
-            this.btn_Delete.Text = "삭제";
+            this.btn_Delete.Text = "Xóa";
             // 
             // BaseReg
             // 
@@ -221,7 +222,7 @@
             this.Controls.Add(this.panReg);
             this.Margin = new System.Windows.Forms.Padding(2, 3, 2, 3);
             this.Name = "BaseReg";
-            this.Size = new System.Drawing.Size(839, 609);
+            this.Size = new System.Drawing.Size(850, 609);
             this.Load += new System.EventHandler(this.BaseUserControl_Load);
             ((System.ComponentModel.ISupportInitialize)(this.panReg)).EndInit();
             this.panReg.ResumeLayout(false);

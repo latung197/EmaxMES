@@ -144,10 +144,10 @@
             this.panelControl2.Controls.Add(this.btn_Save);
             this.panelControl2.Controls.Add(this.btn_Close);
             this.panelControl2.Controls.Add(this.btn_Insert);
-            this.panelControl2.Location = new System.Drawing.Point(328, 3);
+            this.panelControl2.Location = new System.Drawing.Point(270, 3);
             this.panelControl2.Margin = new System.Windows.Forms.Padding(2, 3, 2, 3);
             this.panelControl2.Name = "panelControl2";
-            this.panelControl2.Size = new System.Drawing.Size(240, 37);
+            this.panelControl2.Size = new System.Drawing.Size(298, 37);
             this.panelControl2.TabIndex = 9;
             // 
             // btn_Delete
@@ -158,12 +158,12 @@
             this.btn_Delete.Appearance.Options.UseBorderColor = true;
             this.btn_Delete.button_GB = MES.SimpleButtonEx.Button_GB.Delete;
             this.btn_Delete.ImageOptions.SvgImage = ((DevExpress.Utils.Svg.SvgImage)(resources.GetObject("btn_Delete.ImageOptions.SvgImage")));
-            this.btn_Delete.Location = new System.Drawing.Point(62, 3);
+            this.btn_Delete.Location = new System.Drawing.Point(80, 3);
             this.btn_Delete.Margin = new System.Windows.Forms.Padding(2);
             this.btn_Delete.Name = "btn_Delete";
             this.btn_Delete.Result_Update = System.Windows.Forms.DialogResult.None;
             this.btn_Delete.sCHK = "N";
-            this.btn_Delete.Size = new System.Drawing.Size(74, 34);
+            this.btn_Delete.Size = new System.Drawing.Size(70, 30);
             this.btn_Delete.sSearch = "Y";
             this.btn_Delete.sUpdate = "N";
             this.btn_Delete.TabIndex = 22;
@@ -178,12 +178,12 @@
             this.btn_Save.Appearance.Options.UseBorderColor = true;
             this.btn_Save.button_GB = MES.SimpleButtonEx.Button_GB.Save;
             this.btn_Save.ImageOptions.SvgImage = ((DevExpress.Utils.Svg.SvgImage)(resources.GetObject("btn_Save.ImageOptions.SvgImage")));
-            this.btn_Save.Location = new System.Drawing.Point(121, 3);
+            this.btn_Save.Location = new System.Drawing.Point(154, 3);
             this.btn_Save.Margin = new System.Windows.Forms.Padding(2);
             this.btn_Save.Name = "btn_Save";
             this.btn_Save.Result_Update = System.Windows.Forms.DialogResult.None;
             this.btn_Save.sCHK = "N";
-            this.btn_Save.Size = new System.Drawing.Size(74, 34);
+            this.btn_Save.Size = new System.Drawing.Size(70, 30);
             this.btn_Save.sSearch = "Y";
             this.btn_Save.sUpdate = "N";
             this.btn_Save.TabIndex = 23;
@@ -199,12 +199,12 @@
             this.btn_Close.button_GB = MES.SimpleButtonEx.Button_GB.Exit;
             this.btn_Close.ImageOptions.Image = ((System.Drawing.Image)(resources.GetObject("btn_Close.ImageOptions.Image")));
             this.btn_Close.ImageOptions.SvgImage = ((DevExpress.Utils.Svg.SvgImage)(resources.GetObject("btn_Close.ImageOptions.SvgImage")));
-            this.btn_Close.Location = new System.Drawing.Point(180, 3);
+            this.btn_Close.Location = new System.Drawing.Point(228, 4);
             this.btn_Close.Margin = new System.Windows.Forms.Padding(2);
             this.btn_Close.Name = "btn_Close";
             this.btn_Close.Result_Update = System.Windows.Forms.DialogResult.None;
             this.btn_Close.sCHK = "N";
-            this.btn_Close.Size = new System.Drawing.Size(74, 34);
+            this.btn_Close.Size = new System.Drawing.Size(70, 30);
             this.btn_Close.sSearch = "Y";
             this.btn_Close.sUpdate = "N";
             this.btn_Close.TabIndex = 24;
@@ -219,17 +219,17 @@
             this.btn_Insert.Appearance.Options.UseBorderColor = true;
             this.btn_Insert.button_GB = MES.SimpleButtonEx.Button_GB.Add;
             this.btn_Insert.ImageOptions.SvgImage = ((DevExpress.Utils.Svg.SvgImage)(resources.GetObject("btn_Insert.ImageOptions.SvgImage")));
-            this.btn_Insert.Location = new System.Drawing.Point(4, 3);
+            this.btn_Insert.Location = new System.Drawing.Point(6, 4);
             this.btn_Insert.Margin = new System.Windows.Forms.Padding(2);
             this.btn_Insert.Name = "btn_Insert";
             this.btn_Insert.Result_Update = System.Windows.Forms.DialogResult.None;
             this.btn_Insert.sCHK = "N";
-            this.btn_Insert.Size = new System.Drawing.Size(74, 34);
+            this.btn_Insert.Size = new System.Drawing.Size(70, 30);
             this.btn_Insert.sSearch = "Y";
             this.btn_Insert.sUpdate = "N";
             this.btn_Insert.TabIndex = 21;
             this.btn_Insert.TabStop = false;
-            this.btn_Insert.Text = "Thêm mới";
+            this.btn_Insert.Text = "Thêm";
             this.btn_Insert.Click += new System.EventHandler(this.btn_Insert_Click);
             // 
             // panel_H

@@ -734,7 +734,7 @@
           <dsig:Transform Algorithm="urn:schemas-microsoft-com:HashTransforms.Identity" />
         </dsig:Transforms>
         <dsig:DigestMethod Algorithm="http://www.w3.org/2000/09/xmldsig#sha256" />
-        <dsig:DigestValue>4J/2ca2SEK7t+lBvEL6x50adyuAMiA29YMIB/0GV0mU=</dsig:DigestValue>
+        <dsig:DigestValue>cG7j6ZAZQmiDA+eVg4pGDxvjdHcIp41zMd6hCaCceSM=</dsig:DigestValue>
       </hash>
     </dependentAssembly>
   </dependency>
@@ -756,13 +756,13 @@
       <dsig:DigestValue>VTZMHttvuelge4QUxYxbwF/jsXgHwPErboWDbgRLJYg=</dsig:DigestValue>
     </hash>
   </file>
-  <file name="MES.exe.config" size="7587">
+  <file name="MES.exe.config" size="7744">
     <hash>
       <dsig:Transforms>
         <dsig:Transform Algorithm="urn:schemas-microsoft-com:HashTransforms.Identity" />
       </dsig:Transforms>
       <dsig:DigestMethod Algorithm="http://www.w3.org/2000/09/xmldsig#sha256" />
-      <dsig:DigestValue>fIgaiWdqEBRsoFkSN09nCVS7AIGau3gR1ZMvoLVP7i4=</dsig:DigestValue>
+      <dsig:DigestValue>IHiVvXZwY5pc/w2v/fl5f+tIJOHlF2RKibB9PjBnE1Q=</dsig:DigestValue>
     </hash>
   </file>
   <file name="MES.ico" size="62982">

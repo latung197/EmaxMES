@@ -42,16 +42,16 @@ namespace MES
         protected override void OnCreateControl()
         {
             this.Appearance.BackColor = Color.White;
-            this.Size = new Size(74, 34);
+            this.Size = new Size(70, 30);
 
             if(button_GB == Button_GB.Search)
             {
-                this.Text = "Tìm kiếm";
+                this.Text = "Tìm";
                 this.ImageOptions.SvgImage = Properties.Resources.marqueezoom;
             }
             else if (button_GB == Button_GB.Add)
             {
-                this.Text = "Thêm mới";
+                this.Text = "Thêm";
                 this.ImageOptions.SvgImage = Properties.Resources.actions_addcircled;
             }
             else if (button_GB == Button_GB.Delete)
