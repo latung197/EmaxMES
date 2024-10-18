@@ -734,7 +734,7 @@
           <dsig:Transform Algorithm="urn:schemas-microsoft-com:HashTransforms.Identity" />
         </dsig:Transforms>
         <dsig:DigestMethod Algorithm="http://www.w3.org/2000/09/xmldsig#sha256" />
-        <dsig:DigestValue>MyCa98HQtp3RSUwQsgv7U5Co6WEY3+oinxGQ93+1jMk=</dsig:DigestValue>
+        <dsig:DigestValue>E9/e/BClc+Z185OYHPe8nmJwBtpIrOPDstTAHTB/9jU=</dsig:DigestValue>
       </hash>
     </dependentAssembly>
   </dependency>
@@ -756,13 +756,13 @@
       <dsig:DigestValue>VTZMHttvuelge4QUxYxbwF/jsXgHwPErboWDbgRLJYg=</dsig:DigestValue>
     </hash>
   </file>
-  <file name="MES.exe.config" size="7744">
+  <file name="MES.exe.config" size="7739">
     <hash>
       <dsig:Transforms>
         <dsig:Transform Algorithm="urn:schemas-microsoft-com:HashTransforms.Identity" />
       </dsig:Transforms>
       <dsig:DigestMethod Algorithm="http://www.w3.org/2000/09/xmldsig#sha256" />
-      <dsig:DigestValue>IHiVvXZwY5pc/w2v/fl5f+tIJOHlF2RKibB9PjBnE1Q=</dsig:DigestValue>
+      <dsig:DigestValue>5nFUxwtzwpH5JBmEjLRkVlUTYvvPqul6le2kINe1fyM=</dsig:DigestValue>
     </hash>
   </file>
   <file name="MES.ico" size="62982">
@@ -792,13 +792,13 @@
       <dsig:DigestValue>x5wXGq7gtAUV4sTagyvTgk7WkqRk1C76GwsxynsUeFg=</dsig:DigestValue>
     </hash>
   </file>
-  <file name="Resources\business_calculator.svg" size="938">
+  <file name="Resources\business_calculator.svg" size="955">
     <hash>
       <dsig:Transforms>
         <dsig:Transform Algorithm="urn:schemas-microsoft-com:HashTransforms.Identity" />
       </dsig:Transforms>
       <dsig:DigestMethod Algorithm="http://www.w3.org/2000/09/xmldsig#sha256" />
-      <dsig:DigestValue>F5491Y/VTu7yZ4cGL1+ipcrK+DckWkrBHTxw584LYzQ=</dsig:DigestValue>
+      <dsig:DigestValue>zjRNNStgShnuJAB1kqonNT/NmuDQyBRYO6MaSkD1EW0=</dsig:DigestValue>
     </hash>
   </file>
   <file name="Resources\find_32x321.png" size="2632">
